@@ -31,7 +31,13 @@ LAYOUT & GRID STYLES
 HEADER STYLES
 *********************/
 
-.header {}
+.header {
+	      
+	      height:1200px;
+	      background-image: url(../images/portrait.jpg);
+	      background-repeat: no-repeat;
+
+}
 
 	#logo {}
 
@@ -146,7 +152,7 @@ SIDEBARS & ASIDES
 }
 
 	.widgettitle {
-		border-bottom: 2px solid #444;
+		/*border-bottom: 2px solid #444;*/
 		margin-bottom: 0.75em;
 	}
 
