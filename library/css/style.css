@@ -2350,6 +2350,8 @@ you can add resource intensive styles.
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
   }
 
   #logo {
@@ -2361,6 +2363,7 @@ you can add resource intensive styles.
   *********************/
   .nav {
     border: 0;
+    padding-top: 4.5em;
     /* end .menu ul li */
     /* highlight current page */
     /* end current highlighters */
@@ -2368,7 +2371,6 @@ you can add resource intensive styles.
   .nav ul {
     background: #202122;
     margin-top: 0;
-    padding-top: 2em;
   }
   .nav li {
     float: left;

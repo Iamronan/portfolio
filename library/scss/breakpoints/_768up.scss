@@ -41,6 +41,8 @@ HEADER STYLES
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
 
 }
 
@@ -56,10 +58,11 @@ NAVIGATION STYLES
 
 .nav {
 	border: 0;
+	padding-top:4.5em;
 	ul {
 		background:$black;
 		margin-top:0;
-		padding-top:2em;
+
 	}
 	li {
 		float: left;
