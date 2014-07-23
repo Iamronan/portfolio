@@ -51,7 +51,11 @@
 				<div id="inner-header" class="wrap cf">
 
 					<?php // to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> ?>
-					<p id="logo" class="h1"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></p>
+					<p id="logo" class="h1"><a href="<?php echo home_url(); ?>" rel="nofollow"><svg version="1.1" id="rv_logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 130 130" enable-background="new 0 0 130 130" xml:space="preserve">
+<polygon fill="#D3D3D3" points="39.9,24.7 38.8,24.7 13.7,24.7 52.6,108.1 75.8,108.1 116.4,26 92.3,26 65,84.5 47,42.8 47,42.8 
+	67,42.7 75.8,24.7 49.9,24.7 "/>
+</svg></a></p>
 
 					<?php // if you'd like to use the site description you can un-comment it below ?>
 					<?php // bloginfo('description'); ?>

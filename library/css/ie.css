@@ -210,6 +210,10 @@ HEADER STYLES
   background-size: cover;
 }
 
+#logo {
+  float: left;
+}
+
 /*********************
 NAVIGATION STYLES
 *********************/
@@ -222,10 +226,12 @@ NAVIGATION STYLES
 .nav ul {
   background: #202122;
   margin-top: 0;
+  padding-top: 2em;
 }
 .nav li {
   float: left;
   position: relative;
+  font-size: 1.3em;
   /*
   plan your menus and drop-downs wisely.
   */

@@ -44,7 +44,11 @@ HEADER STYLES
 
 }
 
-	#logo {}
+	#logo {
+
+float:left;
+
+	}
 
 /*********************
 NAVIGATION STYLES
@@ -55,10 +59,12 @@ NAVIGATION STYLES
 	ul {
 		background:$black;
 		margin-top:0;
+		padding-top:2em;
 	}
 	li {
 		float: left;
 		position: relative;
+		font-size: 1.3em;
 
 		a {
 			border-bottom: 0;

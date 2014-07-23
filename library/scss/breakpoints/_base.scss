@@ -11,6 +11,14 @@ and will be used across all viewports.
 
 ******************************************************************/
 
+
+#rv_logo {
+	
+width:130px;
+height:130px;
+}
+
+
 /*********************
 GENERAL STYLES
 *********************/
@@ -158,6 +166,10 @@ HEADER STYLES
 
 	#logo {
 		margin: 0.75em 0;
+		width:150px;
+		height:150px;
+		text-align:center;
+	/*	text-indent:-9999px;*/
 
 		a {
 			color: $white;

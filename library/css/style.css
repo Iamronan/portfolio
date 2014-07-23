@@ -1462,7 +1462,7 @@ IMPORTING Plugin styles
   color: #fff;
 }
 
-@media all and (min-width: 800px) {
+@media all and (min-width: 768px) {
   body.one-page {
     padding-top: 70px;
   }
@@ -1619,6 +1619,11 @@ possible. This is called at the top of the main stylsheet
 and will be used across all viewports.
 
 ******************************************************************/
+#rv_logo {
+  width: 130px;
+  height: 130px;
+}
+
 /*********************
 GENERAL STYLES
 *********************/
@@ -1751,6 +1756,10 @@ HEADER STYLES
 
 #logo {
   margin: 0.75em 0;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  /*	text-indent:-9999px;*/
 }
 #logo a {
   color: white;
@@ -2343,6 +2352,10 @@ you can add resource intensive styles.
     background-size: cover;
   }
 
+  #logo {
+    float: left;
+  }
+
   /*********************
   NAVIGATION STYLES
   *********************/
@@ -2355,10 +2368,12 @@ you can add resource intensive styles.
   .nav ul {
     background: #202122;
     margin-top: 0;
+    padding-top: 2em;
   }
   .nav li {
     float: left;
     position: relative;
+    font-size: 1.3em;
     /*
     plan your menus and drop-downs wisely.
     */
