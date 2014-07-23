@@ -202,9 +202,12 @@ LAYOUT & GRID STYLES
 HEADER STYLES
 *********************/
 .header {
-  height: 1200px;
-  background-image: url(../images/portrait.jpg);
-  background-repeat: no-repeat;
+  height: 1000px;
+  background: url(../images/portrait.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 /*********************
