@@ -27,6 +27,7 @@
 		<?php // or, set /favicon.ico for IE10 win ?>
 		<meta name="msapplication-TileColor" content="#f01d4f">
 		<meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri(); ?>/library/images/win8-tile-icon.png">
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
@@ -36,6 +37,8 @@
 
 		<?php // drop Google Analytics Here ?>
 		<?php // end analytics ?>
+		<script type="text/javascript" src="//use.typekit.net/lra5yib.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
 	</head>
 
@@ -52,17 +55,18 @@
 
 					<?php // if you'd like to use the site description you can un-comment it below ?>
 					<?php // bloginfo('description'); ?>
-
+                     
+                    <div class="menu-button">Menu</div> 
 
 					<nav role="navigation">
 						<?php wp_nav_menu(array(
     					'container' => false,                           // remove nav container
     					'container_class' => 'menu cf',                 // class of container (should you choose to use it)
     					'menu' => __( 'The Main Menu', 'bonestheme' ),  // nav name
-    					'menu_class' => 'nav top-nav cf',               // adding custom nav class
+    					'menu_class' => 'nav top-nav flexnav cf',               // adding custom nav class
     					'theme_location' => 'main-nav',                 // where it's located in the theme
     					'before' => '',                                 // before the menu
-        			'after' => '',                                  // after the menu
+        			    'after' => '',                                  // after the menu
         			'link_before' => '',                            // before each link
         			'link_after' => '',                             // after each link
         			'depth' => 0,                                   // limit the depth of the nav
