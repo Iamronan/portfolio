@@ -20,6 +20,15 @@
 
 					<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>.</p>
 
+					<ul class="social">
+                 
+                    <li> <a href="#"> <i class="fa fa-twitter"></i> </a> </li>
+                    <li> <a href="#"> <i class="fa fa-facebook-square"></i> </a> </li>
+                    <li> <a href="#"> <i class="fa fa-instagram"></i> </a> </li>
+                    <li> <a href="#"> <i class="fa fa-linkedin"></i> </a> </li>
+                     <li> <a href="#"> <i class="fa fa-google-plus"></i> </a> </li>
+                </ul>
+
 				</div>
 
 			</footer>

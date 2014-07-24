@@ -2740,6 +2740,12 @@ img {
   max-width: 100%;
 }
 
+.social li {
+  display: inline-block;
+  font-size: 2em;
+  padding-left: 0.5em;
+}
+
 #rv_logo {
   width: 130px;
   height: 130px;
@@ -3478,6 +3484,10 @@ you can add resource intensive styles.
     padding: 0px;
     margin: 0px;
     /*margin-bottom:-10px;*/
+  }
+
+  .social {
+    float: right;
   }
 
   .intro-text {

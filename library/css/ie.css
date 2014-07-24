@@ -216,6 +216,10 @@ HOMEPAGE
   /*margin-bottom:-10px;*/
 }
 
+.social {
+  float: right;
+}
+
 .intro-text {
   position: absolute;
   left: 2em;
