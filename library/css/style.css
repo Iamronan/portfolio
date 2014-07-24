@@ -2349,6 +2349,9 @@ you can add resource intensive styles.
     margin-top: 0em;
   }
 
+  /*********************
+  HOMEPAGE GALLERY
+  *********************/
   .recentwork {
     padding: 0px;
     margin: 0px;
@@ -2356,6 +2359,7 @@ you can add resource intensive styles.
   .recentwork li {
     padding: 0px;
     margin: 0px;
+    margin-bottom: -10px;
   }
 
   /*********************
@@ -2523,7 +2527,7 @@ you can add resource intensive styles.
   
   ******************************************************************/
   .wrap {
-    width: 1400px;
+    width: 1050px;
   }
 
   .header {
@@ -2545,6 +2549,9 @@ This is for the larger monitors and possibly full screen viewers.
   on larger screens.
   
   ******************************************************************/
+  .wrap {
+    width: 1200px;
+  }
 }
 /*********************
 RETINA (2x RESOLUTION DEVICES)
