@@ -81,6 +81,37 @@
 
 				</div>
 
+
+				<div class="home-logo">
+				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500 500" enable-background="new 0 0 500 500" xml:space="preserve">
+<polygon fill="#FFFFFF" points="201.6,138.6 199.7,138.6 157.6,138.6 222.9,278.6 261.8,278.6 330,140.8 289.6,140.8 243.8,238.9 
+	213.6,168.9 213.6,168.9 247.1,168.9 261.8,138.6 218.4,138.6 "/>
+<g>
+	<path fill="#FFFFFF" d="M23.1,330c1.2,0,3,0.1,4.4,1c1.1,0.7,2,2.1,2,4c0,2.7-1.8,4.8-4.5,5l5.7,8h-2.4l-5.5-7.9h-0.5v7.9h-2v-18
+		H23.1z M22.3,338.4h1.3c2.5,0,4-1.2,4-3.3c0-1-0.3-2-1.4-2.6c-0.8-0.5-1.7-0.5-2.6-0.5h-1.2V338.4z"/>
+	<path fill="#FFFFFF" d="M54.4,339c0-5.4,4.2-9.3,9.4-9.3s9.4,3.9,9.4,9.3c0,5.3-4.1,9.3-9.4,9.3C58.5,348.3,54.4,344.4,54.4,339z
+		 M56.4,339c0,4.1,3.3,7.4,7.3,7.4c4,0,7.3-3.3,7.3-7.4s-3.3-7.4-7.3-7.4C59.7,331.6,56.4,334.9,56.4,339z"/>
+	<path fill="#FFFFFF" d="M98.3,348v-18.7l14,14.7V330h2v18.8l-14-14.7V348H98.3z"/>
+	<path fill="#FFFFFF" d="M150.4,342.9h-7.7l-2.2,5.1h-2.2l8.3-18.8l8.1,18.8h-2.2L150.4,342.9z M149.7,341l-3-7.2l-3.1,7.2H149.7z"
+		/>
+	<path fill="#FFFFFF" d="M178.9,348v-18.7l14,14.7V330h2v18.8l-14-14.7V348H178.9z"/>
+	<path fill="#FFFFFF" d="M221.2,330l5.1,13.7l5.1-13.7h2.2l-7.3,19.1L219,330H221.2z"/>
+	<path fill="#FFFFFF" d="M266.1,342.9h-7.7l-2.2,5.1h-2.2l8.3-18.8l8.1,18.8h-2.2L266.1,342.9z M265.4,341l-3-7.2l-3.1,7.2H265.4z"
+		/>
+	<path fill="#FFFFFF" d="M296.5,330v16.1h5v1.9h-7v-18H296.5z"/>
+	<path fill="#FFFFFF" d="M327.8,330v16.1h5v1.9h-7v-18H327.8z"/>
+	<path fill="#FFFFFF" d="M366.3,331.9H359v5.3h7.1v1.9H359v7h7.3v1.9H357v-18h9.3V331.9z"/>
+	<path fill="#FFFFFF" d="M393.5,330v16.1h5v1.9h-7v-18H393.5z"/>
+	<path fill="#FFFFFF" d="M424.7,330v16.1h5v1.9h-7v-18H424.7z"/>
+	<path fill="#FFFFFF" d="M456.8,340.3l-5.9-10.2h2.3l4.6,8l4.6-8h2.3l-6,10.2v7.7h-2V340.3z"/>
+</g>
+</svg>	
+                </div>
+
+
+
+
 				<p class="intro-text">
 	My name is Ronan Vallelly,  a visual designer and front end 
 developer currently living in Glasgow. I love to code, design stuff and occasionally spin records. I craft beautiful, functional and simple experiences for web and mobile

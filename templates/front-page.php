@@ -19,22 +19,89 @@
 
 				<div id="inner-content" class="cf">
 
-<ul class="m-all t-all l-all cf recentwork">
+<ul class="m-all t-all l-all cf recentwork grid">
 
-	<li class="m-all t-1of3 d-1of3"><img src="http://localhost/iamronan_redesign/wordpress/wp-content/uploads/2014/07/GCJA_AR_2012b_700_x_700.jpg"> </li>
-    <li class="m-all t-1of3 d-1of3"><img src="http://localhost/iamronan_redesign/wordpress/wp-content/uploads/2014/07/GCJA_AR_2012b_700_x_700.jpg"></li>
-    <li class="m-all t-1of3 d-1of3"><img src="http://localhost/iamronan_redesign/wordpress/wp-content/uploads/2014/07/GCJA_AR_2012b_700_x_700.jpg"></li>
-    <li class="m-all t-1of3 d-1of3"><img src="http://localhost/iamronan_redesign/wordpress/wp-content/uploads/2014/07/GCJA_AR_2012b_700_x_700.jpg"></li>
-    <li class="m-all t-1of3 d-1of3"><img src="http://localhost/iamronan_redesign/wordpress/wp-content/uploads/2014/07/GCJA_AR_2012b_700_x_700.jpg"></li>
-    <li class="m-all t-1of3 d-1of3"><img src="http://localhost/iamronan_redesign/wordpress/wp-content/uploads/2014/07/GCJA_AR_2012b_700_x_700.jpg"></li>
+	<li class="m-all t-1of3 d-1of3">
+
+<figure class="effect-zoe">
+					<img src="http://localhost/iamronan_redesign/wordpress/wp-content/uploads/2014/07/GCJA_AR_2012b_700_x_700.jpg">
+					<figcaption>
+						<h2>Traffic <span>Web</span></h2>
+						<span class="icon-heart"></span>
+						<span class="icon-eye"></span>
+						<span class="icon-paper-clip"></span>
+						<p>Zoe never had the patience of her sisters. She deliberately punched the bear in his face.</p>
+						<a href="#">View more</a>
+					</figcaption>			
+				</figure>
+
+
+
+		 </li>
+    <li class="m-all t-1of3 d-1of3"><figure class="effect-zoe">
+					<img src="http://localhost/iamronan_redesign/wordpress/wp-content/uploads/2014/07/GCJA_AR_2012b_700_x_700.jpg">
+					<figcaption>
+						<h2>Creative <span>Zoe</span></h2>
+						<span class="icon-heart"></span>
+						<span class="icon-eye"></span>
+						<span class="icon-paper-clip"></span>
+						<p>Zoe never had the patience of her sisters. She deliberately punched the bear in his face.</p>
+						<a href="#">View more</a>
+					</figcaption>			
+				</figure>
+</li>
+    <li class="m-all t-1of3 d-1of3"><figure class="effect-zoe">
+					<img src="http://localhost/iamronan_redesign/wordpress/wp-content/uploads/2014/07/GCJA_AR_2012b_700_x_700.jpg">
+					<figcaption>
+						<h2>Creative <span>Zoe</span></h2>
+						<span class="icon-heart"></span>
+						<span class="icon-eye"></span>
+						<span class="icon-paper-clip"></span>
+						<p>Zoe never had the patience of her sisters. She deliberately punched the bear in his face.</p>
+						<a href="#">View more</a>
+					</figcaption>			
+				</figure>
+</li>
+    <li class="m-all t-1of3 d-1of3"><figure class="effect-zoe">
+					<img src="http://localhost/iamronan_redesign/wordpress/wp-content/uploads/2014/07/GCJA_AR_2012b_700_x_700.jpg">
+					<figcaption>
+						<h2>Creative <span>Zoe</span></h2>
+						<span class="icon-heart"></span>
+						<span class="icon-eye"></span>
+						<span class="icon-paper-clip"></span>
+						<p>Zoe never had the patience of her sisters. She deliberately punched the bear in his face.</p>
+						<a href="#">View more</a>
+					</figcaption>			
+				</figure>
+</li>
+    <li class="m-all t-1of3 d-1of3"><figure class="effect-zoe">
+					<img src="http://localhost/iamronan_redesign/wordpress/wp-content/uploads/2014/07/GCJA_AR_2012b_700_x_700.jpg">
+					<figcaption>
+						<h2>Creative <span>Zoe</span></h2>
+						<span class="icon-heart"></span>
+						<span class="icon-eye"></span>
+						<span class="icon-paper-clip"></span>
+						<p>Zoe never had the patience of her sisters. She deliberately punched the bear in his face.</p>
+						<a href="#">View more</a>
+					</figcaption>			
+				</figure>
+</li>
+    <li class="m-all t-1of3 d-1of3"><figure class="effect-zoe">
+					<img src="http://localhost/iamronan_redesign/wordpress/wp-content/uploads/2014/07/GCJA_AR_2012b_700_x_700.jpg">
+					<figcaption>
+						<h2>Creative <span>Zoe</span></h2>
+						<span class="icon-heart"></span>
+						<span class="icon-eye"></span>
+						<span class="icon-paper-clip"></span>
+						<p>Zoe never had the patience of her sisters. She deliberately punched the bear in his face.</p>
+						<a href="#">View more</a>
+					</figcaption>			
+				</figure>
+</li>
 
 </ul>    
 
-<p class="intro">
-	My name is Ronan Vallelly,  a visual designer and front end 
-developer currently living in Glasgow. I love to code, design stuff and occasionally spin records. I craft beautiful, functional and simple experiences for web and mobile
 
-</p>
 
 						</div>
 
