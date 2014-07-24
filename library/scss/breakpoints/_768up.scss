@@ -30,10 +30,12 @@ LAYOUT & GRID STYLES
 
 #content {
 	margin-top: 0em;
+	 border-top: 20px solid  $iamronanpink;
+	     
 }
 
 /*********************
-HOMEPAGE GALLERY
+HOMEPAGE 
 *********************/
 .recentwork      
 
@@ -53,6 +55,18 @@ margin-bottom:-10px;
 
 }
 
+.intro-text {
+
+position:absolute;
+left:2em;
+bottom:2em;
+width:45%;
+line-height: 1.5em;
+font-size: 1.3em;
+color: $light-text-color;
+font-weight:100;
+}
+
 /*********************
 HEADER STYLES
 *********************/
@@ -61,6 +75,8 @@ HEADER STYLES
 	      
 	      height:700px;
 	      background: url(../images/portrait.jpg) no-repeat center center ; 
+	      position: relative;
+
 	     
 
   -webkit-background-size: cover;

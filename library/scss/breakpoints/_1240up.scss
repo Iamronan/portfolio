@@ -12,3 +12,16 @@ on larger screens.
 .wrap {
   width: 1200px;
 }
+
+
+	      .intro-text {
+
+position:absolute;
+left:2em;
+bottom:2em;
+width:33%;
+line-height: 1.7em;
+font-size: 1.5em;
+color: $light-text-color;
+font-weight:100;
+}

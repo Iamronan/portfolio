@@ -2347,10 +2347,11 @@ you can add resource intensive styles.
 
   #content {
     margin-top: 0em;
+    border-top: 20px solid #d26755;
   }
 
   /*********************
-  HOMEPAGE GALLERY
+  HOMEPAGE 
   *********************/
   .recentwork {
     padding: 0px;
@@ -2362,12 +2363,24 @@ you can add resource intensive styles.
     margin-bottom: -10px;
   }
 
+  .intro-text {
+    position: absolute;
+    left: 2em;
+    bottom: 2em;
+    width: 45%;
+    line-height: 1.5em;
+    font-size: 1.3em;
+    color: #d9d9d9;
+    font-weight: 100;
+  }
+
   /*********************
   HEADER STYLES
   *********************/
   .header {
     height: 700px;
     background: url(../images/portrait.jpg) no-repeat center center;
+    position: relative;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -2533,6 +2546,17 @@ you can add resource intensive styles.
   .header {
     height: 1000px;
   }
+
+  .intro-text {
+    position: absolute;
+    left: 2em;
+    bottom: 2em;
+    width: 40%;
+    line-height: 1.5em;
+    font-size: 1.3em;
+    color: #d9d9d9;
+    font-weight: 100;
+  }
 }
 /*********************
 LARGE VIEWING SIZE
@@ -2551,6 +2575,17 @@ This is for the larger monitors and possibly full screen viewers.
   ******************************************************************/
   .wrap {
     width: 1200px;
+  }
+
+  .intro-text {
+    position: absolute;
+    left: 2em;
+    bottom: 2em;
+    width: 33%;
+    line-height: 1.7em;
+    font-size: 1.5em;
+    color: #d9d9d9;
+    font-weight: 100;
   }
 }
 /*********************

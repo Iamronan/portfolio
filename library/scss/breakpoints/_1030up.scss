@@ -19,3 +19,16 @@ be seen on the Desktop.
 	      height:1000px;
 
 	      }
+
+
+	      .intro-text {
+
+position:absolute;
+left:2em;
+bottom:2em;
+width:40%;
+line-height: 1.5em;
+font-size: 1.3em;
+color: $light-text-color;
+font-weight:100;
+}
