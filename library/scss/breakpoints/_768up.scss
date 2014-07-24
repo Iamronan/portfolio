@@ -27,14 +27,19 @@ LAYOUT & GRID STYLES
 	width: 760px;
 }
 
+
+#content {
+	margin-top: 0em;
+}
+
 /*********************
 HEADER STYLES
 *********************/
 
 .header {
 	      
-	      height:1000px;
-	       background: url(../images/portrait.jpg) no-repeat center center ; 
+	      height:700px;
+	      background: url(../images/portrait.jpg) no-repeat center center ; 
 	     
 
   -webkit-background-size: cover;

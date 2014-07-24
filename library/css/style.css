@@ -1619,6 +1619,10 @@ possible. This is called at the top of the main stylsheet
 and will be used across all viewports.
 
 ******************************************************************/
+img {
+  max-width: 100%;
+}
+
 #rv_logo {
   width: 130px;
   height: 130px;
@@ -1918,9 +1922,9 @@ POSTS & CONTENT STYLES
   margin-bottom: 1.5em;
 }
 .entry-content img {
-  margin: 0 0 1.5em 0;
+  /*margin: 0 0 1.5em 0;*/
   max-width: 100%;
-  height: auto;
+  /*height: auto;*/
 }
 .entry-content .size-auto,
 .entry-content .size-full,
@@ -2340,11 +2344,15 @@ you can add resource intensive styles.
     width: 760px;
   }
 
+  #content {
+    margin-top: 0em;
+  }
+
   /*********************
   HEADER STYLES
   *********************/
   .header {
-    height: 1000px;
+    height: 700px;
     background: url(../images/portrait.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -2506,6 +2514,10 @@ you can add resource intensive styles.
   ******************************************************************/
   .wrap {
     width: 1040px;
+  }
+
+  .header {
+    height: 1000px;
   }
 }
 /*********************
