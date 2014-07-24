@@ -19,7 +19,7 @@
 
 				<div id="inner-content" class="cf">
 
-<ul class="m-all t-all l-all cf">
+<ul class="m-all t-all l-all cf recentwork">
 
 	<li class="m-all t-1of3 d-1of3"><img src="http://localhost/iamronan_redesign/wordpress/wp-content/uploads/2014/07/GCJA_AR_2012b_700_x_700.jpg"> </li>
     <li class="m-all t-1of3 d-1of3"><img src="http://localhost/iamronan_redesign/wordpress/wp-content/uploads/2014/07/GCJA_AR_2012b_700_x_700.jpg"></li>

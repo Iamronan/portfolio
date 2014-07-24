@@ -1087,7 +1087,7 @@ textarea,
   padding: 0 12px;
   margin-bottom: 14px;
   font-size: 1em;
-  color: #5c6b80;
+  color: #6c6c6c;
   border-radius: 3px;
   vertical-align: middle;
   box-shadow: none;
@@ -1635,7 +1635,7 @@ body {
   font-family: "futura-pt", "futura-pt", Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 100%;
   line-height: 1.5;
-  color: #5c6b80;
+  color: #6c6c6c;
   background-color: white;
   -webkit-font-smoothing: antialiased;
 }
@@ -1691,13 +1691,13 @@ LAYOUT & GRID STYLES
 LINK STYLES
 *********************/
 a, a:visited {
-  color: #f01d4f;
+  color: #e5e5e5;
   /* on hover */
   /* on click */
   /* mobile tap color */
 }
 a:hover, a:focus, a:visited:hover, a:visited:focus {
-  color: #d10e3c;
+  color: #cecece;
 }
 a:link, a:visited:link {
   /*
@@ -1798,9 +1798,10 @@ and more scalable.
 }
 .nav li a {
   display: block;
-  color: white;
+  color: #d9d9d9;
   text-decoration: none;
   padding: 0.75em;
+  font-size: 1.1em;
   /*
   remember this is for mobile ONLY, so there's no need
   to even declare hover styles here, you can do it in
@@ -2014,11 +2015,11 @@ PAGE NAVI STYLES
 }
 .pagination .current {
   cursor: default;
-  color: #5c6b80;
+  color: #6c6c6c;
 }
 .pagination .current:hover, .pagination .current:focus {
   background-color: white;
-  color: #5c6b80;
+  color: #6c6c6c;
 }
 
 /* end .bones_page_navi */
@@ -2155,7 +2156,7 @@ COMMENT FORM STYLES
   margin: 0;
 }
 .logged-in-as a {
-  color: #5c6b80;
+  color: #6c6c6c;
 }
 
 .comment-form-comment {
@@ -2348,6 +2349,15 @@ you can add resource intensive styles.
     margin-top: 0em;
   }
 
+  .recentwork {
+    padding: 0px;
+    margin: 0px;
+  }
+  .recentwork li {
+    padding: 0px;
+    margin: 0px;
+  }
+
   /*********************
   HEADER STYLES
   *********************/
@@ -2398,7 +2408,7 @@ you can add resource intensive styles.
   }
   .nav li a:hover, .nav li a:focus {
     color: white;
-    text-decoration: underline;
+    /*text-decoration: underline;*/
   }
   .nav li ul.sub-menu,
   .nav li ul.children {
@@ -2513,7 +2523,7 @@ you can add resource intensive styles.
   
   ******************************************************************/
   .wrap {
-    width: 1040px;
+    width: 1400px;
   }
 
   .header {

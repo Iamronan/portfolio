@@ -32,6 +32,23 @@ LAYOUT & GRID STYLES
 	margin-top: 0em;
 }
 
+
+.recentwork      
+
+{
+	padding:0px;
+	margin:0px;
+
+li {
+
+padding:0px;
+margin:0px;
+
+
+}
+
+}
+
 /*********************
 HEADER STYLES
 *********************/
@@ -83,7 +100,7 @@ NAVIGATION STYLES
 			*/
 			&:hover, &:focus {
 				color: $white;
-				text-decoration: underline;
+				/*text-decoration: underline;*/
 			}
 		}
 
