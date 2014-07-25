@@ -92,7 +92,7 @@
 					</svg>
 				</div>
 				<p class="intro-text">
-				My name is Ronan Vallelly,  a visual designer and front end
+				My name is <span> Ronan Vallelly </span>,  a visual designer and front end
 				developer currently living in Glasgow. I love to code, design stuff and occasionally spin records. I craft beautiful, functional and simple experiences for web and mobile
 				</p>
 

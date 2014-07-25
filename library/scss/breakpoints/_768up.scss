@@ -77,12 +77,20 @@ float:right;
 
 position:absolute;
 left:2em;
-bottom:4em;
+bottom:2em;
 width:45%;
 line-height: 1.5em;
 font-size: 1.3em;
 color: $light-text-color;
 font-weight:100;
+
+ span {
+
+color:$iamronanpink;
+
+ }
+
+
 }
 
 

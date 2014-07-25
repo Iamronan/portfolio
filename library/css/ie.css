@@ -233,12 +233,15 @@ HOMEPAGE
 .intro-text {
   position: absolute;
   left: 2em;
-  bottom: 4em;
+  bottom: 2em;
   width: 45%;
   line-height: 1.5em;
   font-size: 1.3em;
   color: #d9d9d9;
   font-weight: 100;
+}
+.intro-text span {
+  color: #d26755;
 }
 
 .home-logo {
