@@ -62,6 +62,9 @@
 						)); ?>
 					</nav>
 				</div>
+
+<h1 class="page-title"><?php the_title(); ?></h1>
+
 				<div class="home-logo">
 					<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 					viewBox="0 0 500 500" enable-background="new 0 0 500 500" xml:space="preserve">
@@ -92,5 +95,8 @@
 				My name is Ronan Vallelly,  a visual designer and front end
 				developer currently living in Glasgow. I love to code, design stuff and occasionally spin records. I craft beautiful, functional and simple experiences for web and mobile
 				</p>
+
+
+				<div class="scroll-down"> <i class="fa fa-angle-down"></i> </div>
 			</header>
 		

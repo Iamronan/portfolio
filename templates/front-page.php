@@ -87,7 +87,7 @@
 				</figure>
 </li>
     <li class="m-all t-1of3 d-1of3"><figure class="effect-zoe">
-					<img src="http://localhost/iamronan_redesign/wordpress/wp-content/uploads/2014/07/GCJA_AR_2012b_700_x_700.jpg">
+					<img src="http://localhost/iamronan_redesign/wordpress/wp-content/uploads/2014/07/our-haus.jpg">
 					<figcaption>
 						<h2>Creative <span>Zoe</span></h2>
 						<span class="icon-heart"></span>
@@ -104,6 +104,10 @@
 
 
 						</div>
+
+
+
+						<div class="hire-me"><button class="blue-btn"> Hire Me </button> </div>
 
 
 				</div>

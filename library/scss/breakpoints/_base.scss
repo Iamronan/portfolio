@@ -19,18 +19,52 @@ max-width: 100%;
 }
 
 
+.hire-me {
+
+text-align:center;
+margin:auto;
+padding:3em;
+
+button {
+
+
+  font-size:2em;
+  background-color: $iamronanpink;
+  font-weight: 300;
+  padding:0.6em;
+  width:15%;
+  font-family: $futura;
+
+}
+
+}
+
+.page-id-7 .page-title {
+
+display:none;
+
+}
+
 .social {
 
 
 li {
 
 display:inline-block;
-font-size:1.5em;
-padding-left:0.5em;
-color:$iamronangrey;
+font-size:2em;
+padding-left:0.7em;
+color:#a9a6a6;
 
 
 }
+
+
+a {
+
+color:#a9a6a6;
+
+}
+
 
 }
 
@@ -337,7 +371,23 @@ POSTS & CONTENT STYLES
 
 		.single-title {}
 
-		.page-title {}
+		.page-title { font-weight:300;
+                       color:#ffffff;
+                       text-align:center;
+                       margin:auto 0;
+                      
+
+
+                        &:after {
+
+                        border-bottom:4px solid white;
+
+
+                        }
+
+
+
+		                }
 
 		.entry-title {}
 
@@ -937,4 +987,11 @@ FOOTER STYLES
 	} /* end .footer-links */
 
 
-	.copyright {}
+	.copyright {
+
+background: url(../images/made.png) no-repeat center center ; 
+width:190px;
+height:128px;
+
+
+	}

@@ -1007,7 +1007,7 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
 .blue-btn, .comment-reply-link, #submit {
   display: inline-block;
   position: relative;
-  font-family: "futura-pt", Helvetica Neue, Helvetica, Arial, sans-serif;
+  /* font-family: $sans-serif;*/
   text-decoration: none;
   color: white;
   font-size: 0.9em;
@@ -1035,13 +1035,13 @@ You can use this example if you want. Just replace all the variables
 and it will create a button dependant on those variables.
 */
 .blue-btn, .comment-reply-link, #submit {
-  background-color: #2980b9;
+  background-color: #d26755;
 }
 .blue-btn:hover, .comment-reply-link:hover, #submit:hover, .blue-btn:focus, .comment-reply-link:focus, #submit:focus {
-  background-color: #2574a8;
+  background-color: #ce5945;
 }
 .blue-btn:active, .comment-reply-link:active, #submit:active {
-  background-color: #2472a4;
+  background-color: #cd5541;
 }
 
 /******************************************************************
@@ -2726,11 +2726,32 @@ img {
   max-width: 100%;
 }
 
+.hire-me {
+  text-align: center;
+  margin: auto;
+  padding: 3em;
+}
+.hire-me button {
+  font-size: 2em;
+  background-color: #d26755;
+  font-weight: 300;
+  padding: 0.6em;
+  width: 15%;
+  font-family: "futura-pt", "futura-pt", Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.page-id-7 .page-title {
+  display: none;
+}
+
 .social li {
   display: inline-block;
-  font-size: 1.5em;
-  padding-left: 0.5em;
-  color: #d9d9d9;
+  font-size: 2em;
+  padding-left: 0.7em;
+  color: #a9a6a6;
+}
+.social a {
+  color: #a9a6a6;
 }
 
 #rv_logo {
@@ -2967,6 +2988,16 @@ POSTS & CONTENT STYLES
 .page-title,
 .entry-title {
   margin: 0;
+}
+
+.page-title {
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
+  margin: auto 0;
+}
+.page-title:after {
+  border-bottom: 4px solid white;
 }
 
 /* want to style individual post classes? Booya! */
@@ -3349,6 +3380,12 @@ override these styles for the desktop
 view.
 */
 /* end .footer-links */
+.copyright {
+  background: url(../images/made.png) no-repeat center center;
+  width: 190px;
+  height: 128px;
+}
+
 /*********************
 LARGER MOBILE DEVICES
 This is for devices like the Galaxy Note or something that's
@@ -3487,6 +3524,14 @@ you can add resource intensive styles.
     /*margin-bottom:-10px;*/
   }
 
+  .scroll-down {
+    position: absolute;
+    bottom: 1em;
+    left: 50%;
+    font-size: 4em;
+    color: #ffffff;
+  }
+
   .social {
     float: right;
   }
@@ -3494,7 +3539,7 @@ you can add resource intensive styles.
   .intro-text {
     position: absolute;
     left: 2em;
-    bottom: 2em;
+    bottom: 4em;
     width: 45%;
     line-height: 1.5em;
     font-size: 1.3em;
@@ -3701,6 +3746,18 @@ you can add resource intensive styles.
     color: #d9d9d9;
     font-weight: 100;
   }
+
+  .social {
+    padding-top: 2em;
+  }
+  .social li {
+    display: inline-block;
+    font-size: 2em;
+    padding-left: 0.7em;
+  }
+  .social li a {
+    color: #a9a6a6;
+  }
 }
 /*********************
 LARGE VIEWING SIZE
@@ -3724,7 +3781,7 @@ This is for the larger monitors and possibly full screen viewers.
   .intro-text {
     position: absolute;
     left: 2em;
-    bottom: 2em;
+    bottom: 4em;
     width: 33%;
     line-height: 1.7em;
     font-size: 1.5em;

@@ -218,6 +218,14 @@ HOMEPAGE
   /*margin-bottom:-10px;*/
 }
 
+.scroll-down {
+  position: absolute;
+  bottom: 1em;
+  left: 50%;
+  font-size: 4em;
+  color: #ffffff;
+}
+
 .social {
   float: right;
 }
@@ -225,7 +233,7 @@ HOMEPAGE
 .intro-text {
   position: absolute;
   left: 2em;
-  bottom: 2em;
+  bottom: 4em;
   width: 45%;
   line-height: 1.5em;
   font-size: 1.3em;
@@ -423,6 +431,18 @@ be seen on the Desktop.
   font-size: 1.3em;
   color: #d9d9d9;
   font-weight: 100;
+}
+
+.social {
+  padding-top: 2em;
+}
+.social li {
+  display: inline-block;
+  font-size: 2em;
+  padding-left: 0.7em;
+}
+.social li a {
+  color: #a9a6a6;
 }
 
 /*

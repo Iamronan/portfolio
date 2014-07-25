@@ -20,7 +20,7 @@
 						)); ?>
 					</nav>
 
-					<p class="source-org copyright m-all t-1of3 d-1of3">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>.</p>
+					<p class="source-org copyright m-all t-1of3 d-1of3"></p>
 
 					<ul class="social">
                  
