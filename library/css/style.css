@@ -2704,20 +2704,6 @@ figure.effect-chico:hover p {
   transform: scale(1);
 }
 
-@media screen and (max-width: 69.5em) {
-  .grid figure {
-    width: 50%;
-  }
-
-  .grid figure figcaption {
-    font-size: 90%;
-  }
-}
-@media screen and (max-width: 41.5em) {
-  .grid figure {
-    width: 100%;
-  }
-}
 /*********************
 BASE (MOBILE) SIZE
 This are the mobile styles. It's what people see on their phones. If
@@ -2742,8 +2728,9 @@ img {
 
 .social li {
   display: inline-block;
-  font-size: 2em;
+  font-size: 1.5em;
   padding-left: 0.5em;
+  color: #d9d9d9;
 }
 
 #rv_logo {
@@ -2761,6 +2748,18 @@ body {
   color: #6c6c6c;
   background-color: white;
   -webkit-font-smoothing: antialiased;
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+#container {
+  width: 100%;
+  height: 100%;
 }
 
 /********************
@@ -3471,6 +3470,8 @@ you can add resource intensive styles.
   #content {
     margin-top: 0em;
     border-top: 20px solid #d26755;
+    overflow: hidden;
+    clear: both;
   }
 
   /*********************
@@ -3514,8 +3515,13 @@ you can add resource intensive styles.
   /*********************
   HEADER STYLES
   *********************/
+  .page-id-4 .header {
+    background: url(../images/me.jpg) no-repeat center center;
+  }
+
   .header {
-    height: 700px;
+    width: 100%;
+    height: 100%;
     background: url(../images/portrait.jpg) no-repeat center center;
     position: relative;
     -webkit-background-size: cover;
@@ -3681,7 +3687,8 @@ you can add resource intensive styles.
   }
 
   .header {
-    height: 1000px;
+    width: 100%;
+    height: 100%;
   }
 
   .intro-text {

@@ -1124,20 +1124,3 @@ figure.effect-chico:hover p {
 	transform: scale(1);
 }
 
-@media screen and (max-width: 69.5em) {
-	.grid figure {
-		width: 50%;
-	}	
-
-	.grid figure figcaption {
-		font-size: 90%;
-	}
-}
-
-
-@media screen and (max-width: 41.5em) {
-
-	.grid figure {
-		width: 100%;
-	}
-}

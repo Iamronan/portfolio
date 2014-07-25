@@ -15,7 +15,7 @@
 
 <?php get_header(); ?>
 
-			<div id="content">
+			<div id="content" class="cf">
 
 				<div id="inner-content" class="cf">
 
@@ -51,7 +51,7 @@
 				</figure>
 </li>
     <li class="m-all t-1of3 d-1of3"><figure class="effect-zoe">
-					<img src="http://localhost/iamronan_redesign/wordpress/wp-content/uploads/2014/07/GCJA_AR_2012b_700_x_700.jpg">
+					<img src="http://localhost/iamronan_redesign/wordpress/wp-content/uploads/2014/07/safe.jpg">
 					<figcaption>
 						<h2>Creative <span>Zoe</span></h2>
 						<span class="icon-heart"></span>
@@ -63,7 +63,7 @@
 				</figure>
 </li>
     <li class="m-all t-1of3 d-1of3"><figure class="effect-zoe">
-					<img src="http://localhost/iamronan_redesign/wordpress/wp-content/uploads/2014/07/GCJA_AR_2012b_700_x_700.jpg">
+					<img src="http://localhost/iamronan_redesign/wordpress/wp-content/uploads/2014/07/kreate.jpg">
 					<figcaption>
 						<h2>Creative <span>Zoe</span></h2>
 						<span class="icon-heart"></span>
@@ -75,7 +75,7 @@
 				</figure>
 </li>
     <li class="m-all t-1of3 d-1of3"><figure class="effect-zoe">
-					<img src="http://localhost/iamronan_redesign/wordpress/wp-content/uploads/2014/07/GCJA_AR_2012b_700_x_700.jpg">
+					<img src="http://localhost/iamronan_redesign/wordpress/wp-content/uploads/2014/07/traffic-web.jpg">
 					<figcaption>
 						<h2>Creative <span>Zoe</span></h2>
 						<span class="icon-heart"></span>
@@ -108,7 +108,6 @@
 
 				</div>
 
-			</div>
 
 
 <?php get_footer(); ?>

@@ -1,3 +1,5 @@
+
+
 			<footer class="footer" role="contentinfo">
 
 				<div id="inner-footer" class="wrap cf">
@@ -18,13 +20,13 @@
 						)); ?>
 					</nav>
 
-					<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>.</p>
+					<p class="source-org copyright m-all t-1of3 d-1of3">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>.</p>
 
 					<ul class="social">
                  
                     <li> <a href="#"> <i class="fa fa-twitter"></i> </a> </li>
-                    <li> <a href="#"> <i class="fa fa-facebook-square"></i> </a> </li>
-                    <li> <a href="#"> <i class="fa fa-instagram"></i> </a> </li>
+                     <li> <a href="#"> <i class="fa fa-dribbble"></i> </a> </li>
+                   
                     <li> <a href="#"> <i class="fa fa-linkedin"></i> </a> </li>
                      <li> <a href="#"> <i class="fa fa-google-plus"></i> </a> </li>
                 </ul>
@@ -33,7 +35,9 @@
 
 			</footer>
 
+
 		</div>
+
 
 		<?php // all js scripts are loaded in library/bones.php ?>
 		<?php wp_footer(); ?>
