@@ -2726,6 +2726,10 @@ img {
   max-width: 100%;
 }
 
+p {
+  font-size: 1.2em;
+}
+
 .hire-me {
   text-align: center;
   margin: auto;
@@ -2972,12 +2976,12 @@ POSTS & CONTENT STYLES
   /*border: 1px solid $border-color;*/
 }
 .hentry header {
-  border-bottom: 1px solid #f8f9fa;
+  /*border-bottom: 1px solid $light-gray;*/
   padding: 1.5em;
 }
 .hentry footer {
   padding: 1.5em;
-  border-top: 1px solid #f8f9fa;
+  /*border-top: 1px solid $light-gray;*/
 }
 .hentry footer p {
   margin: 0;
@@ -2988,6 +2992,7 @@ POSTS & CONTENT STYLES
 .page-title,
 .entry-title {
   margin: 0;
+  font-weight: 200;
 }
 
 .page-title {
@@ -2998,6 +3003,12 @@ POSTS & CONTENT STYLES
 }
 .page-title:after {
   border-bottom: 4px solid white;
+}
+
+.entry-title a {
+  color: #6c6c6c;
+  font-weight: 200;
+  font-size: 1.6em;
 }
 
 /* want to style individual post classes? Booya! */
@@ -3500,28 +3511,27 @@ you can add resource intensive styles.
   /*********************
   LAYOUT & GRID STYLES
   *********************/
-  .page-title-section {
-    position: relative;
-    width: 200px;
+  p {
+    font-size: 1.5em;
+    font-weight: 200;
+  }
+
+  #main {
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+
+  .wrap-2 {
+    width: 50%;
     margin: auto;
   }
 
-  .page-title {
-    position: relative;
-    padding-bottom: 2px;
-    text-decoration: none;
+  .icons li {
+    padding: 2em;
   }
-
-  .page-title:after {
-    content: "";
-    position: absolute;
-    /* bottom: 2px; */
-    /* height: 1px; */
-    width: 160px;
-    /* background: #fff; */
-    /* border-bottom: solid #fff 10px; */
-    top: 70px;
-    left: 20px;
+  .icons li h2 {
+    text-align: center;
+    font-weight: 400;
   }
 
   .wrap {
@@ -3551,7 +3561,7 @@ you can add resource intensive styles.
   .scroll-down {
     position: absolute;
     bottom: 1em;
-    left: 50%;
+    left: 48%;
     font-size: 4em;
     color: #ffffff;
   }
@@ -3576,7 +3586,7 @@ you can add resource intensive styles.
 
   .text-center {
     margin: auto;
-    width: 30%;
+    width: 45%;
     display: block;
     padding-top: 3em;
   }
@@ -3606,6 +3616,37 @@ you can add resource intensive styles.
   /*********************
   HEADER STYLES
   *********************/
+  .me {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    padding-top: 3.5em;
+  }
+
+  .page-title-section {
+    position: relative;
+    width: 200px;
+    margin: auto;
+  }
+
+  .header .page-title {
+    position: relative;
+    padding-bottom: 2px;
+    text-decoration: none;
+  }
+
+  .header .page-title:after {
+    content: "";
+    position: absolute;
+    /* bottom: 2px; */
+    /* height: 1px; */
+    width: 160px;
+    /* background: #fff; */
+    /* border-bottom: solid #fff 10px; */
+    top: 70px;
+    left: 20px;
+  }
+
   .page-id-4 .header {
     background: url(../images/me.jpg) no-repeat center center;
   }
@@ -3649,6 +3690,10 @@ you can add resource intensive styles.
     float: left;
     position: relative;
     font-size: 1.3em;
+    line-height: 1.7em;
+    font-size: 1.5em;
+    color: #d9d9d9;
+    font-weight: 100;
     /*
     plan your menus and drop-downs wisely.
     */
@@ -3808,6 +3853,14 @@ you can add resource intensive styles.
   .social li a {
     color: #a9a6a6;
   }
+
+  .icons li {
+    padding: 5em;
+  }
+  .icons li h2 {
+    text-align: center;
+    font-weight: 400;
+  }
 }
 /*********************
 LARGE VIEWING SIZE
@@ -3837,6 +3890,41 @@ This is for the larger monitors and possibly full screen viewers.
     font-size: 1.5em;
     color: #d9d9d9;
     font-weight: 100;
+  }
+
+  .text-center {
+    margin: auto;
+    width: 35%;
+    display: block;
+    padding-top: 3em;
+  }
+
+  .scroll-down {
+    position: absolute;
+    bottom: 1em;
+    left: 49%;
+    font-size: 4em;
+    color: #ffffff;
+  }
+
+  .icons li {
+    padding: 6em;
+  }
+  .icons li h2 {
+    text-align: center;
+    font-weight: 200;
+  }
+
+  .intro-page {
+    /*width:400px;*/
+    padding-top: 2em;
+    line-height: 1.3em;
+    font-size: 1.8em;
+    color: #d9d9d9;
+    font-weight: 100;
+  }
+  .intro-page span {
+    color: #d26755;
   }
 }
 /*********************

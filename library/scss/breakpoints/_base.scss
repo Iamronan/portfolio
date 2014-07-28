@@ -19,6 +19,12 @@ max-width: 100%;
 }
 
 
+p {
+
+font-size:1.2em;
+
+}
+
 .hire-me {
 
 text-align:center;
@@ -348,13 +354,13 @@ POSTS & CONTENT STYLES
 			/*border: 1px solid $border-color;*/
 
 			header {
-				border-bottom: 1px solid $light-gray;
+				/*border-bottom: 1px solid $light-gray;*/
 				padding: 1.5em;
 			}
 
 			footer {
 				padding: 1.5em;
-				border-top: 1px solid $light-gray;
+				/*border-top: 1px solid $light-gray;*/
 
 				p {
 					margin: 0;
@@ -367,6 +373,7 @@ POSTS & CONTENT STYLES
 		.page-title,
 		.entry-title {
 			margin: 0;
+			font-weight:200;
 		}
 
 		.single-title {}
@@ -389,7 +396,17 @@ POSTS & CONTENT STYLES
 
 		                }
 
-		.entry-title {}
+		.entry-title {
+
+           a {
+
+		 color:$iamronanlinks;
+		 font-weight:200;
+		 font-size:1.6em;
+
+}
+
+		}
 
 		.archive-title {}
 

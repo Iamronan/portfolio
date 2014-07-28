@@ -25,3 +25,61 @@ font-size: 1.5em;
 color: $light-text-color;
 font-weight:100;
 }
+
+
+.text-center {
+
+margin:auto;
+width:35%;
+display:block;
+padding-top:3em;
+
+}
+
+
+.scroll-down {
+
+position:absolute;
+bottom:1em;
+left:49%;
+font-size:4em;
+color: #ffffff;
+
+
+}
+
+
+
+.icons li {
+
+
+padding:6em;
+
+h2 {
+
+text-align:center;
+font-weight:200;
+
+}
+
+}
+
+
+.intro-page {
+
+/*width:400px;*/
+padding-top:2em;
+
+line-height: 1.3em;
+font-size: 1.8em;
+color: $light-text-color;
+font-weight:100;
+
+ span {
+
+color:$iamronanpink;
+
+ }
+
+
+}

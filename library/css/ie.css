@@ -194,28 +194,27 @@ GENERAL STYLES
 /*********************
 LAYOUT & GRID STYLES
 *********************/
-.page-title-section {
-  position: relative;
-  width: 200px;
+p {
+  font-size: 1.5em;
+  font-weight: 200;
+}
+
+#main {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.wrap-2 {
+  width: 50%;
   margin: auto;
 }
 
-.page-title {
-  position: relative;
-  padding-bottom: 2px;
-  text-decoration: none;
+.icons li {
+  padding: 2em;
 }
-
-.page-title:after {
-  content: "";
-  position: absolute;
-  /* bottom: 2px; */
-  /* height: 1px; */
-  width: 160px;
-  /* background: #fff; */
-  /* border-bottom: solid #fff 10px; */
-  top: 70px;
-  left: 20px;
+.icons li h2 {
+  text-align: center;
+  font-weight: 400;
 }
 
 .wrap {
@@ -245,7 +244,7 @@ HOMEPAGE
 .scroll-down {
   position: absolute;
   bottom: 1em;
-  left: 50%;
+  left: 48%;
   font-size: 4em;
   color: #ffffff;
 }
@@ -270,7 +269,7 @@ HOMEPAGE
 
 .text-center {
   margin: auto;
-  width: 30%;
+  width: 45%;
   display: block;
   padding-top: 3em;
 }
@@ -300,6 +299,37 @@ HOMEPAGE
 /*********************
 HEADER STYLES
 *********************/
+.me {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  padding-top: 3.5em;
+}
+
+.page-title-section {
+  position: relative;
+  width: 200px;
+  margin: auto;
+}
+
+.header .page-title {
+  position: relative;
+  padding-bottom: 2px;
+  text-decoration: none;
+}
+
+.header .page-title:after {
+  content: "";
+  position: absolute;
+  /* bottom: 2px; */
+  /* height: 1px; */
+  width: 160px;
+  /* background: #fff; */
+  /* border-bottom: solid #fff 10px; */
+  top: 70px;
+  left: 20px;
+}
+
 .page-id-4 .header {
   background: url(../images/me.jpg) no-repeat center center;
 }
@@ -343,6 +373,10 @@ NAVIGATION STYLES
   float: left;
   position: relative;
   font-size: 1.3em;
+  line-height: 1.7em;
+  font-size: 1.5em;
+  color: #d9d9d9;
+  font-weight: 100;
   /*
   plan your menus and drop-downs wisely.
   */
@@ -493,6 +527,14 @@ be seen on the Desktop.
 }
 .social li a {
   color: #a9a6a6;
+}
+
+.icons li {
+  padding: 5em;
+}
+.icons li h2 {
+  text-align: center;
+  font-weight: 400;
 }
 
 /*
