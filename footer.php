@@ -44,12 +44,22 @@
 
 		<script type="text/javascript">
 
-jQuery(document).ready(function($) {
+        jQuery(document).ready(function($) {
 		
 
 			// initialize FlexNav
 			$(".flexnav").flexNav();
+
+
+  $('.scroll-down a ').smoothScroll();
+
+
 		});
+
+
+
+
+    
 
 
 		</script>

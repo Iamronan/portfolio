@@ -63,9 +63,26 @@
 					</nav>
 				</div>
 
-<h1 class="page-title"><?php the_title(); ?></h1>
+
+				<?php  if ( !is_page('Work') ) { ?>
+
+				<div class="page-title-section">
+
+				<h1 class="page-title"><?php the_title(); ?></h1>
+
+			</div>
+	
+<?php  }  else { ?>
+<?php  } ?>
+
+
+
+<?php  if ( is_page('Work') ) { ?>
 
 				<div class="home-logo">
+
+
+
 					<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 					viewBox="0 0 500 500" enable-background="new 0 0 500 500" xml:space="preserve">
 					<polygon fill="#FFFFFF" points="201.6,138.6 199.7,138.6 157.6,138.6 222.9,278.6 261.8,278.6 330,140.8 289.6,140.8 243.8,238.9
@@ -90,13 +107,37 @@
 					<path fill="#FFFFFF" d="M456.8,340.3l-5.9-10.2h2.3l4.6,8l4.6-8h2.3l-6,10.2v7.7h-2V340.3z"/>
 					</g>
 					</svg>
+
 				</div>
-				<p class="intro-text">
+<?php  }  else { ?>
+
+<div class="text-center cf">
+<p class="intro-page">
+				My name is  Ronan Vallelly,  a visual designer and front end
+				developer currently living in Glasgow. I love to code, design stuff and occasionally spin records. I craft beautiful, functional and simple experiences for web and mobile
+				</p>
+			</div>
+<?php  } ?>
+
+
+				
+
+<?php  if ( is_page('Work') ) { ?>
+	<p class="intro-text">
 				My name is <span> Ronan Vallelly </span>,  a visual designer and front end
 				developer currently living in Glasgow. I love to code, design stuff and occasionally spin records. I craft beautiful, functional and simple experiences for web and mobile
 				</p>
+<?php  } elseif ( is_page('Contact') ) { ?>
+<p class="intro-text">
+				test
+				</p>
+<?php  } else { ?><br />
+<?php  } ?>
 
 
-				<div class="scroll-down"> <i class="fa fa-angle-down"></i> </div>
+			
+
+
+				<div class="scroll-down"> <a href="#content"> <i class="fa fa-angle-down"></i> </a></div>
 			</header>
 		

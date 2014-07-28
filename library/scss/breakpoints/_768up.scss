@@ -23,6 +23,36 @@ body {}
 LAYOUT & GRID STYLES
 *********************/
 
+
+.page-title-section {
+
+position:relative;
+width: 200px;
+margin: auto; 
+
+}
+.page-title {
+  position: relative;
+  padding-bottom: 2px;
+  text-decoration: none;
+}
+
+
+.page-title:after {
+content: "";
+position: absolute;
+/* bottom: 2px; */
+/* height: 1px; */
+width: 160px;
+/* background: #fff; */
+/* border-bottom: solid #fff 10px; */
+top:70px;
+left:20px;
+ }
+
+
+
+
 .wrap {
 	width: 760px;
 }
@@ -94,6 +124,36 @@ color:$iamronanpink;
 }
 
 
+.text-center {
+
+margin:auto;
+width:30%;
+display:block;
+padding-top:3em;
+
+}
+
+.intro-page {
+
+/*width:400px;*/
+padding-top:2em;
+
+line-height: 1.5em;
+font-size: 1.3em;
+color: $light-text-color;
+font-weight:100;
+
+ span {
+
+color:$iamronanpink;
+
+ }
+
+
+}
+
+
+
 .home-logo {
 
 width:400px;
@@ -116,6 +176,12 @@ background: url(../images/me.jpg) no-repeat center center ;
 
 }
 
+
+.page-id-12 .header  {
+
+background: url(../images/services_bg.jpg) no-repeat center center ; 
+
+}
 
 .header {
 	      
