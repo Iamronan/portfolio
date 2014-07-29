@@ -48,12 +48,22 @@ color: #ffffff;
 
 }
 
+.me {
 
+width:200px;
+height:200px;
+margin:auto;
+padding-top:3em;
+
+}
 
 .icons li {
 
 
-padding:6em;
+padding-right:6em;
+padding-left:6em;
+padding-bottom:2em;
+padding-top:3em;
 
 h2 {
 
@@ -68,7 +78,7 @@ font-weight:200;
 .intro-page {
 
 /*width:400px;*/
-padding-top:4em;
+padding-top:3em;
 
 line-height: 1.3em;
 font-size: 1.8em;

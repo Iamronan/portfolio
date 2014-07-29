@@ -1,69 +1,51 @@
+<footer class="footer" role="contentinfo">
+	<div id="inner-footer" class="wrap cf">
+		<nav role="navigation">
+			<?php wp_nav_menu(array(
+			'container' => '',                              // remove nav container
+			'container_class' => 'footer-links cf',         // class of container (should you choose to use it)
+			'menu' => __( 'Footer Links', 'bonestheme' ),   // nav name
+			'menu_class' => 'nav footer-nav cf',            // adding custom nav class
+			'theme_location' => 'footer-links',             // where it's located in the theme
+			'before' => '',                                 // before the menu
+			'after' => '',                                  // after the menu
+			'link_before' => '',                            // before each link
+			'link_after' => '',                             // after each link
+			'depth' => 0,                                   // limit the depth of the nav
+			'fallback_cb' => 'bones_footer_links_fallback'  // fallback function
+			)); ?>
+		</nav>
+		<p class="source-org copyright m-all t-1of3 d-1of3"></p>
+		<ul class="social">
+			
+			<li> <a href="#"> <i class="fa fa-twitter"></i> </a> </li>
+			<li> <a href="#"> <i class="fa fa-dribbble"></i> </a> </li>
+			
+			<li> <a href="#"> <i class="fa fa-linkedin"></i> </a> </li>
+			<li> <a href="#"> <i class="fa fa-google-plus"></i> </a> </li>
+		</ul>
+	</div>
+</footer>
+</div>
+<?php // all js scripts are loaded in library/bones.php ?>
+<?php wp_footer(); ?>
+<script type="text/javascript">
 
 
-			<footer class="footer" role="contentinfo">
+jQuery(document).ready(function($) {
 
-				<div id="inner-footer" class="wrap cf">
+	// initialize FlexNav
+	$(".flexnav").flexNav();
+$('.scroll-down a ').smoothScroll();
+});
 
-					<nav role="navigation">
-						<?php wp_nav_menu(array(
-    					'container' => '',                              // remove nav container
-    					'container_class' => 'footer-links cf',         // class of container (should you choose to use it)
-    					'menu' => __( 'Footer Links', 'bonestheme' ),   // nav name
-    					'menu_class' => 'nav footer-nav cf',            // adding custom nav class
-    					'theme_location' => 'footer-links',             // where it's located in the theme
-    					'before' => '',                                 // before the menu
-        			'after' => '',                                  // after the menu
-        			'link_before' => '',                            // before each link
-        			'link_after' => '',                             // after each link
-        			'depth' => 0,                                   // limit the depth of the nav
-    					'fallback_cb' => 'bones_footer_links_fallback'  // fallback function
-						)); ?>
-					</nav>
+</script>
 
-					<p class="source-org copyright m-all t-1of3 d-1of3"></p>
+<script type="text/javascript">
 
-					<ul class="social">
-                 
-                    <li> <a href="#"> <i class="fa fa-twitter"></i> </a> </li>
-                     <li> <a href="#"> <i class="fa fa-dribbble"></i> </a> </li>
-                   
-                    <li> <a href="#"> <i class="fa fa-linkedin"></i> </a> </li>
-                     <li> <a href="#"> <i class="fa fa-google-plus"></i> </a> </li>
-                </ul>
+ new WOW().init();
 
-				</div>
+</script>
 
-			</footer>
-
-
-		</div>
-
-
-		<?php // all js scripts are loaded in library/bones.php ?>
-		<?php wp_footer(); ?>
-
-		<script type="text/javascript">
-
-        jQuery(document).ready(function($) {
-		
-
-			// initialize FlexNav
-			$(".flexnav").flexNav();
-
-
-  $('.scroll-down a ').smoothScroll();
-
-
-		});
-
-
-
-
-    
-
-
-		</script>
-
-	</body>
-
+</body>
 </html> <!-- end of site. what a ride! -->
