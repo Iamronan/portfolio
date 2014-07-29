@@ -14,7 +14,7 @@ Template Name: Home Page
 ?>
 <?php get_header(); ?>
 <div id="content" class="cf">
-	<div id="inner-content" class="cf wow animated fadeIn" >
+	<div id="inner-content" class="cf wow animated fadeIn" data-wow-duration="2s" >
 		<ul class="m-all t-all l-all cf recentwork grid">
 			<li class="m-all t-1of3 d-1of3">
 				<figure class="effect-zoe">
