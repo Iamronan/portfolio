@@ -17,10 +17,24 @@
 										<?php printf( __( 'Posted', 'bonestheme' ) . ' <time class="updated" datetime="%1$s" pubdate>%2$s</time> ' , get_the_time('Y-m-j'), get_the_time(get_option('date_format')), get_the_author_link( get_the_author_meta( 'ID' ) )); ?>
 									</p>
 
+
+
 								</header>
 
+								
+
 								<section class="entry-content cf">
-									<?php the_content(); ?>
+
+									<div class="blog-excerpt-text m-all t-2of3 d-5of7 cf">
+										<?php the_excerpt(); ?>
+
+									</div>
+
+									<div class="blog-excerpt-text m-all t-1of3 d-2of7 cf">
+
+										 <?php the_post_thumbnail('bones-thumb-250'); ?> 
+										</div>
+
 								</section>
 
 								<footer class="article-footer cf">
