@@ -969,7 +969,7 @@ figure.effect-zoe figcaption {
 	top: auto;
 	bottom: 0;
 	padding: 1em;
-	height: 3.75em;
+	height:4.75em;
 	background: #d26755;
 	color: #3c4a50;
 	-webkit-transition: -webkit-transform 0.35s;
@@ -1008,7 +1008,7 @@ figure.effect-zoe figcaption > span {
 
 figure.effect-zoe figcaption > span::before {
 	display: inline-block;
-	padding: 8px 10px;
+	/*padding: 8px 10px;*/
 	font-family: 'feathericons';
 	speak: none;
 	-webkit-font-smoothing: antialiased;
@@ -1017,6 +1017,8 @@ figure.effect-zoe figcaption > span::before {
 
 .icon-eye::before {
 	content: '\e000';
+	font-size:1.8em;
+	padding-bottom: 0.5em;
 }
 
 .icon-paper-clip::before {

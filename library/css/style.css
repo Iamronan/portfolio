@@ -2551,7 +2551,7 @@ figure.effect-zoe figcaption {
   top: auto;
   bottom: 0;
   padding: 1em;
-  height: 3.75em;
+  height: 4.75em;
   background: #d26755;
   color: #3c4a50;
   -webkit-transition: -webkit-transform 0.35s;
@@ -2590,7 +2590,7 @@ figure.effect-zoe figcaption > span {
 
 figure.effect-zoe figcaption > span::before {
   display: inline-block;
-  padding: 8px 10px;
+  /*padding: 8px 10px;*/
   font-family: 'feathericons';
   speak: none;
   -webkit-font-smoothing: antialiased;
@@ -2599,6 +2599,8 @@ figure.effect-zoe figcaption > span::before {
 
 .icon-eye::before {
   content: '\e000';
+  font-size: 1.8em;
+  padding-bottom: 0.5em;
 }
 
 .icon-paper-clip::before {
@@ -5824,6 +5826,186 @@ Copyright (c) 2014 Daniel Eden
   animation-name: zoomOutUp;
 }
 
+@font-face {
+  font-family: 'ecoicon';
+  src: url("../fonts/ecoicons/ecoicon.eot");
+  src: url("../fonts/ecoicons/ecoicon.eot?#iefix") format("embedded-opentype"), url("../fonts/ecoicons/ecoicon.woff") format("woff"), url("../fonts/ecoicons/ecoicon.ttf") format("truetype"), url("../fonts/ecoicons/ecoicon.svg#ecoicon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.hi-icon-wrap {
+  text-align: center;
+  margin: 0 auto;
+  padding: 2em 0 3em;
+}
+
+.hi-icon {
+  display: inline-block;
+  cursor: pointer;
+  margin: 0.6em 0.8em;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.hi-icon:after {
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  content: '';
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+.hi-icon:before {
+  font-family: 'ecoicon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  display: block;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Effect 8 */
+.hi-icon-effect-8 .hi-icon {
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-transition: -webkit-transform ease-out 0.1s, background 0.2s;
+  -moz-transition: -moz-transform ease-out 0.1s, background 0.2s;
+  transition: transform ease-out 0.1s, background 0.2s;
+}
+
+.hi-icon-effect-8 .hi-icon:after {
+  top: 0;
+  left: 0;
+  padding: 0;
+  z-index: -1;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1);
+  opacity: 0;
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+.no-touch .hi-icon-effect-8 .hi-icon:hover {
+  background: rgba(255, 255, 255, 0.05);
+  -webkit-transform: scale(0.7);
+  -moz-transform: scale(0.7);
+  -ms-transform: scale(0.7);
+  transform: scale(0.7);
+  color: #fff;
+}
+
+.hi-icon-effect-8 .hi-icon:hover:after {
+  -webkit-animation: sonarEffect 1.1s ease-out 75ms;
+  -moz-animation: sonarEffect 1.1s ease-out 75ms;
+  animation: sonarEffect 1.1s ease-out 75ms;
+}
+
+@-webkit-keyframes sonarEffect {
+  0% {
+    opacity: 0.3;
+  }
+
+  40% {
+    opacity: 0.5;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 4px 4px #d26755, 0 0 0 4px rgba(255, 255, 255, 0.5);
+  }
+
+  100% {
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 4px 4px #d26755, 0 0 0 4px rgba(255, 255, 255, 0.5);
+    -webkit-transform: scale(1.2);
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes sonarEffect {
+  0% {
+    opacity: 0.3;
+  }
+
+  40% {
+    opacity: 0.5;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 4px 4px #d26755, 0 0 0 4px rgba(255, 255, 255, 0.5);
+  }
+
+  100% {
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 4px 4px #d26755, 0 0 0 4px rgba(255, 255, 255, 0.5);
+    -moz-transform: scale(1.2);
+    opacity: 0;
+  }
+}
+
+@keyframes sonarEffect {
+  0% {
+    opacity: 0.3;
+  }
+
+  40% {
+    opacity: 0.5;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 4px 4px #d26755, 0 0 0 4px rgba(255, 255, 255, 0.5);
+  }
+
+  100% {
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 4px 4px #d26755, 0 0 0 4px rgba(255, 255, 255, 0.5);
+    transform: scale(1.2);
+    opacity: 0;
+  }
+}
+
+/* Effect 9 */
+.hi-icon-effect-9 .hi-icon {
+  -webkit-transition: box-shadow 0.2s;
+  -moz-transition: box-shadow 0.2s;
+  transition: box-shadow 0.2s;
+}
+
+.hi-icon-effect-9 .hi-icon:after {
+  top: 0;
+  left: 0;
+  padding: 0;
+  box-shadow: 0 0 0 3px #fff;
+  -webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
+  -moz-transition: -moz-transform 0.2s, opacity 0.2s;
+  transition: transform 0.2s, opacity 0.2s;
+}
+
+/* Effect 9a */
+.no-touch .hi-icon-effect-9a .hi-icon:hover:after {
+  -webkit-transform: scale(0.85);
+  -moz-transform: scale(0.85);
+  -ms-transform: scale(0.85);
+  transform: scale(0.85);
+  opacity: 0.5;
+}
+
+.no-touch .hi-icon-effect-9a .hi-icon:hover {
+  box-shadow: 0 0 0 10px white;
+  color: #fff;
+}
+
+/* Effect 9b */
+.no-touch .hi-icon-effect-9b .hi-icon:hover:after {
+  -webkit-transform: scale(0.85);
+  -moz-transform: scale(0.85);
+  -ms-transform: scale(0.85);
+  transform: scale(0.85);
+}
+
+.no-touch .hi-icon-effect-9b .hi-icon:hover {
+  box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.4);
+  color: #fff;
+}
+
 /*********************
 BASE (MOBILE) SIZE
 This are the mobile styles. It's what people see on their phones. If
@@ -5842,6 +6024,105 @@ possible. This is called at the top of the main stylsheet
 and will be used across all viewports.
 
 ******************************************************************/
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-30px);
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+
+  60% {
+    -webkit-transform: translateY(-15px);
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-30px);
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+
+  60% {
+    -webkit-transform: translateY(-15px);
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+@-ms-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-30px);
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+
+  60% {
+    -webkit-transform: translateY(-15px);
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-30px);
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+
+  60% {
+    -webkit-transform: translateY(-15px);
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+.bounce {
+  -webkit-animation: bounce 2s infinite;
+  -moz-animation: bounce 2s infinite;
+  -ms-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
 img {
   max-width: 100%;
 }
@@ -5860,7 +6141,7 @@ p {
   background-color: #d26755;
   font-weight: 300;
   padding: 0.6em;
-  width: 15%;
+  width: 200px;
   font-family: "futura-pt", "futura-pt", Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
@@ -6637,6 +6918,11 @@ you can add resource intensive styles.
     font-weight: 200;
   }
 
+  .social .fa {
+    font-size: 2em;
+    padding: 0.9em;
+  }
+
   #main {
     padding-top: 2em;
     padding-bottom: 2em;
@@ -6681,7 +6967,7 @@ you can add resource intensive styles.
 
   .scroll-down {
     position: absolute;
-    bottom: 1em;
+    bottom: 0.1em;
     left: 48%;
     font-size: 4em;
     color: #ffffff;
@@ -6707,14 +6993,15 @@ you can add resource intensive styles.
 
   .text-center {
     margin: auto;
-    width: 45%;
     display: block;
     padding-top: 3em;
   }
 
   .intro-page {
     /*width:400px;*/
+    margin: auto;
     padding-top: 2em;
+    width: 80%;
     line-height: 1.5em;
     font-size: 1.3em;
     color: #d9d9d9;
@@ -6722,6 +7009,14 @@ you can add resource intensive styles.
   }
   .intro-page span {
     color: #d26755;
+  }
+
+  .blog-icon {
+    position: absolute;
+    padding-top: 0.3em;
+    margin-left: -1em;
+    font-size: 4em;
+    color: #c5c5c5;
   }
 
   .home-logo {
@@ -6768,11 +7063,15 @@ you can add resource intensive styles.
     left: 20px;
   }
 
-  .page-id-4 .header {
+  .page-template-templatesabout-page-php .header {
     background: url(../images/me.jpg) no-repeat center center;
   }
 
-  .page-id-12 .header {
+  .page-template-templatestraffic-page-php .header {
+    background: url(../images/traffic.jpg) no-repeat center center;
+  }
+
+  .page-template-templatesservices-page-php .header {
     background: url(../images/services_bg.jpg) no-repeat center center;
   }
 
@@ -6782,7 +7081,7 @@ you can add resource intensive styles.
 
   .header {
     width: 100%;
-    height: 80%;
+    height: 100%;
     background: url(../images/portrait.jpg) no-repeat center center;
     position: relative;
     -webkit-background-size: cover;
@@ -6947,6 +7246,17 @@ you can add resource intensive styles.
   be seen on the Desktop.
   
   ******************************************************************/
+  .text-center {
+    margin: auto;
+    width: 1000px;
+    display: block;
+    padding-top: 3em;
+  }
+
+  #container .header .web-header {
+    padding-top: 6em;
+  }
+
   .wrap {
     width: 1050px;
   }
@@ -7024,14 +7334,13 @@ This is for the larger monitors and possibly full screen viewers.
 
   .text-center {
     margin: auto;
-    width: 35%;
     display: block;
     padding-top: 3em;
   }
 
   .scroll-down {
     position: absolute;
-    bottom: 1em;
+    bottom: 0.2em;
     left: 49%;
     font-size: 4em;
     color: #ffffff;

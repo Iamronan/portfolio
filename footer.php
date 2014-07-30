@@ -16,14 +16,17 @@
 			)); ?>
 		</nav>
 		<p class="source-org copyright m-all t-1of3 d-1of3"></p>
-		<ul class="social">
+			<div class="hi-icon-wrap hi-icon-effect-8 social">
+					<a href="#set-8" class="hi-icon  wow animated fadeInRight" ><i class="fa fa-twitter"> </i>  </a>
+					<a href="#set-8" class="hi-icon  wow animated fadeInRight" ><i class="fa fa-dribbble"> </i> </a>
+					<a href="#set-8" class="hi-icon  wow animated fadeInRight" ><i class="fa fa-linkedin"> </i> </a>
+					<a href="#set-8" class="hi-icon  wow animated fadeInRight" ><i class="fa fa-google-plus"> </i> </a>
+				
+				</div>
+			</section>
+
+	<section id="set-8">
 			
-			<li> <a href="#"> <i class="fa fa-twitter"></i> </a> </li>
-			<li> <a href="#"> <i class="fa fa-dribbble"></i> </a> </li>
-			
-			<li> <a href="#"> <i class="fa fa-linkedin"></i> </a> </li>
-			<li> <a href="#"> <i class="fa fa-google-plus"></i> </a> </li>
-		</ul>
 	</div>
 </footer>
 </div>

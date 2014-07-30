@@ -14,18 +14,18 @@ Template Name: Home Page
 ?>
 <?php get_header(); ?>
 <div id="content" class="cf">
-	<div id="inner-content" class="cf wow animated fadeIn" data-wow-duration="2s" >
+	<div id="inner-content" class="cf wow animated fadeIn" data-wow-duration="1s" >
 		<ul class="m-all t-all l-all cf recentwork grid">
 			<li class="m-all t-1of3 d-1of3">
 				<figure class="effect-zoe">
 					<img src="http://localhost/iamronan_redesign/wordpress/wp-content/uploads/2014/07/imaronan_mob.jpg">
 					<figcaption>
 					<h2>Traffic <span>Web</span></h2>
-					<span class="icon-heart"></span>
+			<!-- 		<span class="icon-heart"></span> -->
 					<span class="icon-eye"></span>
-					<span class="icon-paper-clip"></span>
-					<p>Zoe never had the patience of her sisters. She deliberately punched the bear in his face.</p>
-					<a href="#">View more</a>
+				<!-- 	<span class="icon-paper-clip"></span> -->
+					<!-- <p>Zoe never had the patience of her sisters. She deliberately punched the bear in his face.</p> -->
+					<a href="http://localhost/iamronan_redesign/wordpress/traffic/">View more</a>
 					</figcaption>
 				</figure>
 			</li>
@@ -33,10 +33,10 @@ Template Name: Home Page
 				<img src="http://localhost/iamronan_redesign/wordpress/wp-content/uploads/2014/07/ardardan.jpg">
 				<figcaption>
 				<h2>Creative <span>Zoe</span></h2>
-				<span class="icon-heart"></span>
+			<!-- 	<span class="icon-heart"></span> -->
 				<span class="icon-eye"></span>
-				<span class="icon-paper-clip"></span>
-				<p>Zoe never had the patience of her sisters. She deliberately punched the bear in his face.</p>
+			<!-- 	<span class="icon-paper-clip"></span> -->
+			<!-- 	<p>Zoe never had the patience of her sisters. She deliberately punched the bear in his face.</p> -->
 				<a href="#">View more</a>
 				</figcaption>
 			</figure>
@@ -45,10 +45,10 @@ Template Name: Home Page
 			<img src="http://localhost/iamronan_redesign/wordpress/wp-content/uploads/2014/07/safe.jpg">
 			<figcaption>
 			<h2>Creative <span>Zoe</span></h2>
-			<span class="icon-heart"></span>
+		<!-- 	<span class="icon-heart"></span> -->
 			<span class="icon-eye"></span>
-			<span class="icon-paper-clip"></span>
-			<p>Zoe never had the patience of her sisters. She deliberately punched the bear in his face.</p>
+		<!-- 	<span class="icon-paper-clip"></span> -->
+		<!-- 	<p>Zoe never had the patience of her sisters. She deliberately punched the bear in his face.</p> -->
 			<a href="#">View more</a>
 			</figcaption>
 		</figure>
@@ -57,10 +57,10 @@ Template Name: Home Page
 		<img src="http://localhost/iamronan_redesign/wordpress/wp-content/uploads/2014/07/kreate.jpg">
 		<figcaption>
 		<h2>Creative <span>Zoe</span></h2>
-		<span class="icon-heart"></span>
+		<!-- <span class="icon-heart"></span> -->
 		<span class="icon-eye"></span>
-		<span class="icon-paper-clip"></span>
-		<p>Zoe never had the patience of her sisters. She deliberately punched the bear in his face.</p>
+		<!-- <span class="icon-paper-clip"></span> -->
+	<!-- 	<p>Zoe never had the patience of her sisters. She deliberately punched the bear in his face.</p> -->
 		<a href="#">View more</a>
 		</figcaption>
 	</figure>
@@ -69,10 +69,10 @@ Template Name: Home Page
 	<img src="http://localhost/iamronan_redesign/wordpress/wp-content/uploads/2014/07/traffic-web.jpg">
 	<figcaption>
 	<h2>Creative <span>Zoe</span></h2>
-	<span class="icon-heart"></span>
+<!-- 	<span class="icon-heart"></span> -->
 	<span class="icon-eye"></span>
-	<span class="icon-paper-clip"></span>
-	<p>Zoe never had the patience of her sisters. She deliberately punched the bear in his face.</p>
+	<!-- <span class="icon-paper-clip"></span> -->
+<!-- 	<p>Zoe never had the patience of her sisters. She deliberately punched the bear in his face.</p> -->
 	<a href="#">View more</a>
 	</figcaption>
 </figure>
@@ -81,10 +81,10 @@ Template Name: Home Page
 <img src="http://localhost/iamronan_redesign/wordpress/wp-content/uploads/2014/07/our-haus.jpg">
 <figcaption>
 <h2>Creative <span>Zoe</span></h2>
-<span class="icon-heart"></span>
+<!-- <span class="icon-heart"></span> -->
 <span class="icon-eye"></span>
-<span class="icon-paper-clip"></span>
-<p>Zoe never had the patience of her sisters. She deliberately punched the bear in his face.</p>
+<!-- <span class="icon-paper-clip"></span> -->
+<!-- <p>Zoe never had the patience of her sisters. She deliberately punched the bear in his face.</p> -->
 <a href="#">View more</a>
 </figcaption>
 </figure>

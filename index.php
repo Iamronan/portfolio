@@ -4,6 +4,8 @@
 		<div id="main" class="m-all t-3of3 d-7of7 cf" role="main">
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 			<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf, wow , animated, fadeInLeft' ); ?> role="article">
+
+				<i class="fa fa-comment blog-icon"></i>
 				<header class="article-header">
 					<h1 class="h2 entry-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
 					<p class="byline vcard">
@@ -16,7 +18,14 @@
 						<?php the_excerpt(); ?>
 					</div>
 					<div class="blog-excerpt-text m-all t-1of3 d-2of7 cf">
-						<?php the_post_thumbnail('bones-thumb-250'); ?>
+<? if( has_post_thumbnail( ) ): ?>
+    
+        <img title="image title" alt="thumb image" class="wp-post-image" 
+             src="<?=wp_get_attachment_url( get_post_thumbnail_id() ); ?>" style="width:100%; height:auto;">
+   
+<? endif; ?>
+
+
 					</div>
 				</section>
 				<footer class="article-footer cf">

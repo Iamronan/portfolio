@@ -62,14 +62,22 @@
 					)); ?>
 				</nav>
 			</div>
-			<?php  if ( !is_page('Work') ) { ?>
 			<div class="page-title-section animated fadeInDown">
+				<?php if(is_page('Journal')):?>
+				<h1 class="page-title">Work</h1>
+				<?php elseif (is_home('Journal')):?>
+				<h1 class="page-title">Journal</h1>
+				<?php elseif (is_page('Me')):?>
+				<h1 class="page-title">Me</h1>
+				<?php elseif (is_page('Services')):?>
+				<h1 class="page-title">Services</h1>
+				<?php else:?>
 				<h1 class="page-title"><?php the_title(); ?></h1>
+				<?php endif;?>
 			</div>
 			
-			<?php  }  else { ?>
-			<?php  } ?>
-			<?php  if ( is_page('Work') ) { ?>
+			
+			<?php  if ( is_page('Work') ) :?>
 			<div class="home-logo ">
 				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 				viewBox="0 0 500 500" enable-background="new 0 0 500 500" xml:space="preserve">
@@ -96,21 +104,51 @@
 				</g>
 				</svg>
 			</div>
-			<?php  }  else { ?>
+			<?php elseif (is_page('Me')):?>
 			<div class="text-center cf">
-				<p class="intro-page">
+				<p class="intro-page ">
 				My name is  Ronan Vallelly,  a visual designer and front end
 				developer currently living in Glasgow. I love to code, design stuff and occasionally spin records. I craft beautiful, functional and simple experiences for web and mobile.
 				</p>
-				<?php  if ( is_page('Me') ) { ?>
 				<div class="me">
 					<img src="http://localhost/iamronan_redesign/wordpress/wp-content/uploads/2014/07/me.png"/>
 				</div>
-				<?php  } elseif ( is_page('Contact') ) { ?>
-				<?php  } else { ?>
-				<?php  } ?>
+				<?php elseif (is_home('Journal')):?>
+				<div class="text-center cf">
+					<p class="intro-page ">
+					My name is  Journal,  a visual designer and front end
+					developer currently living in Glasgow. I love to code, design stuff and occasionally spin records. I craft beautiful, functional and simple experiences for web and mobile.
+					</p>
+				</div>
+
+
+	<?php elseif (is_single()):?>
+				<div class="text-center cf">
+					<p class="intro-page ">
+					My name is  Journal,  a visual designer and front end
+					developer currently living in Glasgow. I love to code, design stuff and occasionally spin records. I craft beautiful, functional and simple experiences for web and mobile.
+					</p>
+				</div>
+
+
+
+				<?php elseif (is_page('Services')):?>
+				
+				<div class="text-center cf">
+					<p class="intro-page ">
+					My name is  Services,  a visual designer and front end
+					developer currently living in Glasgow. I love to code, design stuff and occasionally spin records. I craft beautiful, functional and simple experiences for web and mobile.
+					</p>
+				</div>
+				<?php elseif (is_page('Traffic')):?>
+				<div class="text-center web-header animated fadeInDown cf">
+					<img src="http://localhost/iamronan_redesign/wordpress/wp-content/uploads/2014/07/treaffic-web.png">
+				</div>
+				<?php else:?>
+				
+				<?php endif;?>
 			</div>
-			<?php  } ?>
+			
 			
 			<?php  if ( is_page('Work') ) { ?>
 			<p class="intro-text animated fadeInLeftBig">
@@ -118,9 +156,9 @@
 			developer currently living in Glasgow. I love to code, design stuff and occasionally spin records. I craft beautiful, functional and simple experiences for web and mobile. Feel free to check out some of my <span> recent work </span>  below.
 			</p>
 			<?php  } elseif ( is_page('Contact') ) { ?>
-		
+			
 			<?php  } else { ?>
 			<?php  } ?>
 			
-			<div class="scroll-down"> <a href="#content"> <i class="fa fa-angle-down"></i> </a></div>
+			<div class="scroll-down  animated bounce"> <a href="#content"> <i class="fa fa-angle-down"></i> </a></div>
 		</header>
