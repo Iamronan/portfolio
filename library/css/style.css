@@ -1376,6 +1376,7 @@ IMPORTING Plugin styles
   font-size: 100%;
   position: relative;
   overflow: hidden;
+  text-align: left;
 }
 .flexnav li a {
   position: relative;
@@ -1385,7 +1386,7 @@ IMPORTING Plugin styles
   overflow: hidden;
   color: white;
   background: transparent;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  /*border-bottom: 1px solid rgba(0,0,0,.15);*/
 }
 .flexnav li ul {
   width: 100%;
@@ -1437,7 +1438,7 @@ IMPORTING Plugin styles
   background: transparent;
   color: white;
   cursor: pointer;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  /*border-bottom: 1px solid rgba(0,0,0,.2);*/
 }
 .menu-button.one-page {
   position: fixed;
@@ -1455,6 +1456,7 @@ IMPORTING Plugin styles
   height: 75px;
   display: inline-block;
   text-align: center;
+  font-size: 2em;
 }
 .menu-button .touch-button .navicon {
   font-size: 2em;
@@ -6024,6 +6026,7 @@ possible. This is called at the top of the main stylsheet
 and will be used across all viewports.
 
 ******************************************************************/
+/*arrow animation*/
 @-webkit-keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
     -webkit-transform: translateY(0);
@@ -6121,6 +6124,20 @@ and will be used across all viewports.
   -moz-animation: bounce 2s infinite;
   -ms-animation: bounce 2s infinite;
   animation: bounce 2s infinite;
+}
+
+.intro-page {
+  /*width:400px;*/
+  margin: auto;
+  padding-top: 2em;
+  width: 90%;
+  line-height: 1.5em;
+  font-size: 1.3em;
+  color: #d9d9d9;
+  font-weight: 100;
+}
+.intro-page span {
+  color: #d26755;
 }
 
 img {
@@ -6303,11 +6320,71 @@ h5, .h5 {
 HEADER STYLES
 *********************/
 .header {
-  background-color: #202122;
+  width: 100%;
+  height: 100%;
+  background: url(../images/portrait.jpg) no-repeat center center;
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+
+.page-title-section {
+  position: relative;
+  width: 200px;
+  margin: auto;
+}
+
+.header .page-title {
+  position: relative;
+  padding-bottom: 2px;
+  text-decoration: none;
+}
+
+.header .page-title:after {
+  content: "";
+  position: absolute;
+  /* bottom: 2px; */
+  /* height: 1px; */
+  width: 160px;
+  /* background: #fff; */
+  /* border-bottom: solid #fff 10px; */
+  top: 70px;
+  left: 20px;
+}
+
+.page-template-templatesabout-page-php .header {
+  background: url(../images/me.jpg) no-repeat center center;
+}
+
+.page-template-templatestraffic-page-php .header {
+  background: url(../images/traffic.jpg) no-repeat center center;
+}
+
+.page-template-templatesservices-page-php .header {
+  background: url(../images/services_bg.jpg) no-repeat center center;
+}
+
+.single .header, .blog .header {
+  background: url(../images/journal_bg.jpg) no-repeat center center;
+}
+
+.intro-text {
+  position: realtive;
+  line-height: 1.5em;
+  font-size: 1.3em;
+  color: #d9d9d9;
+  font-weight: 100;
+}
+.intro-text span {
+  color: #d26755;
 }
 
 #logo {
-  margin: 0.75em 0;
+  margin: auto;
   width: 150px;
   height: 150px;
   text-align: center;
@@ -6334,6 +6411,9 @@ and more scalable.
   /* end .menu li */
   /* highlight current page */
   /* end current highlighters */
+}
+.nav .fa {
+  font-size: 1.7em;
 }
 .nav li {
   /*
@@ -7323,7 +7403,7 @@ This is for the larger monitors and possibly full screen viewers.
 
   .intro-text {
     position: absolute;
-    left: 2em;
+    left: 1.5em;
     bottom: 4em;
     width: 33%;
     line-height: 1.7em;
@@ -7340,7 +7420,7 @@ This is for the larger monitors and possibly full screen viewers.
 
   .scroll-down {
     position: absolute;
-    bottom: 0.2em;
+    bottom: 1em;
     left: 49%;
     font-size: 4em;
     color: #ffffff;

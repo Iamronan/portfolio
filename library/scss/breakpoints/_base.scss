@@ -12,6 +12,8 @@ and will be used across all viewports.
 ******************************************************************/
 
 
+/*arrow animation*/
+
 @mixin keyframes($name) {
   @-webkit-keyframes #{$name} {
     @content; 
@@ -57,6 +59,26 @@ and will be used across all viewports.
 }
 
 
+.intro-page {
+
+/*width:400px;*/
+margin:auto;
+padding-top:2em;
+width:90%;
+line-height: 1.5em;
+font-size: 1.3em;
+color: $light-text-color;
+font-weight:100;
+
+ span {
+
+color:$iamronanpink;
+
+ }
+
+}
+
+
 img {
 
 max-width: 100%;
@@ -76,6 +98,8 @@ font-size:1.2em;
 text-align:center;
 margin:auto;
 padding:3em;
+
+
 
 button {
 
@@ -283,13 +307,105 @@ h5, .h5 {
 HEADER STYLES
 *********************/
 
+
+
+
 .header {
-	background-color: $black;
-	
+	      
+	       width: 100%;
+           height: 100%;
+	      background: url(../images/portrait.jpg) no-repeat center center ; 
+	      position: relative;
+	     
+
+	     
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+
 }
 
+
+
+.page-title-section {
+
+position:relative;
+width: 200px;
+margin: auto; 
+
+}
+
+
+
+.header  .page-title {
+  position: relative;
+  padding-bottom: 2px;
+  text-decoration: none;
+}
+
+
+.header  .page-title:after {
+content: "";
+position: absolute;
+/* bottom: 2px; */
+/* height: 1px; */
+width: 160px;
+/* background: #fff; */
+/* border-bottom: solid #fff 10px; */
+top:70px;
+left:20px;
+ }
+
+.page-template-templatesabout-page-php .header {
+
+background: url(../images/me.jpg) no-repeat center center ; 
+
+}
+
+
+.page-template-templatestraffic-page-php  .header   {
+
+background: url(../images/traffic.jpg) no-repeat center center ; 
+
+}
+
+.page-template-templatesservices-page-php .header  {
+
+background: url(../images/services_bg.jpg) no-repeat center center ; 
+
+}
+
+.single .header, .blog .header {
+
+background: url(../images/journal_bg.jpg) no-repeat center center ; 
+
+}
+
+
+.intro-text {
+
+position:realtive;
+line-height: 1.5em;
+font-size: 1.3em;
+color: $light-text-color;
+font-weight:100;
+
+ span {
+
+color:$iamronanpink;
+
+ }
+
+
+}
+
+
 	#logo {
-		margin: 0.75em 0;
+		margin:auto;
 		width:150px;
 		height:150px;
 		text-align:center;
@@ -316,6 +432,12 @@ and more scalable.
 	border-bottom: 0;
 	margin: 0;
 	float:right;
+
+	.fa {
+
+font-size:1.7em;
+
+	}
 
 	li {
 
