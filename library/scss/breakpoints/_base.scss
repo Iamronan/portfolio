@@ -12,6 +12,26 @@ and will be used across all viewports.
 ******************************************************************/
 
 
+.intro-text {
+
+
+display:none;
+
+}
+
+
+
+
+.mobile-text {
+
+display:block;
+line-height: 1.5em;
+font-size: 1.3em;
+color: $light-text-color;
+font-weight:100;
+
+}
+
 /*arrow animation*/
 
 @mixin keyframes($name) {
@@ -307,13 +327,20 @@ h5, .h5 {
 HEADER STYLES
 *********************/
 
+#content {
 
+    margin-top: 0em;
+	border-top: 20px solid  $iamronanpink;
+	overflow:hidden;
+	clear:both; 
+
+}
 
 
 .header {
 	      
-	       width: 100%;
-           height: 100%;
+	      width: 100%;
+          height: 100%;
 	      background: url(../images/portrait.jpg) no-repeat center center ; 
 	      position: relative;
 	     
@@ -336,7 +363,7 @@ HEADER STYLES
 position:relative;
 width: 200px;
 margin: auto; 
-
+padding-top:2em;
 }
 
 
@@ -405,6 +432,7 @@ color:$iamronanpink;
 
 
 	#logo {
+		display:none;
 		margin:auto;
 		width:150px;
 		height:150px;
@@ -431,7 +459,7 @@ and more scalable.
 .nav {
 	border-bottom: 0;
 	margin: 0;
-	float:right;
+	
 
 	.fa {
 

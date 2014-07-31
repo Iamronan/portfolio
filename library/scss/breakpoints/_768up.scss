@@ -12,6 +12,11 @@ come into play. Have fun!
 
 ******************************************************************/
 
+.mobile-text {
+
+display:none;
+
+}
 
 /*********************
 GENERAL STYLES
@@ -132,6 +137,7 @@ line-height: 1.5em;
 font-size: 1.3em;
 color: $light-text-color;
 font-weight:100;
+display:block;
 
  span {
 
@@ -218,6 +224,7 @@ margin: auto;
 .header  .page-title {
   position: relative;
   padding-bottom: 2px;
+ 
   text-decoration: none;
 }
 
@@ -259,6 +266,8 @@ background: url(../images/journal_bg.jpg) no-repeat center center ;
 
 }
 
+
+
 .header {
 	      
 	       width: 100%;
@@ -280,6 +289,7 @@ background: url(../images/journal_bg.jpg) no-repeat center center ;
 	#logo {
 
 float:left;
+display:block;
 
 	}
 
@@ -290,6 +300,7 @@ NAVIGATION STYLES
 .nav {
 	border: 0;
 	padding-top:4.5em;
+	float:right;
 	ul {
 		background:$black;
 		margin-top:0;

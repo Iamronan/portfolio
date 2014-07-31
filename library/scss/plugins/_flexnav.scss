@@ -1,7 +1,7 @@
 /* Flexnav Base Styles */
 
 $nav_text: #ffffff;
-$top_level:transparent;
+$top_level:#000000;
 $second_level: #b2b2af;
 $third_level: #bfbfbc;
 $fourth_level: #cbcbc9;
@@ -41,6 +41,8 @@ $fourth_level: #cbcbc9;
 		position: relative;
 		overflow: hidden;
 		text-align:left;
+		background: $top_level;
+		
 	}
 	li a {
 		position: relative;
@@ -49,7 +51,7 @@ $fourth_level: #cbcbc9;
 		z-index: 2;
 		overflow: hidden;
 		color: $nav_text;
-		background: transparent;
+		
 		/*border-bottom: 1px solid rgba(0,0,0,.15);*/
 	}
 	li ul {
@@ -106,6 +108,7 @@ $fourth_level: #cbcbc9;
 	padding: 1em;
 	background: $top_level;
 	color: $nav_text;
+	opacity:0.8;
 	cursor: pointer;
 	/*border-bottom: 1px solid rgba(0,0,0,.2);*/
 	

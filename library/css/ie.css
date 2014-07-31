@@ -188,6 +188,10 @@ and other resources. You'll also notice the grid starts to
 come into play. Have fun!
 
 ******************************************************************/
+.mobile-text {
+  display: none;
+}
+
 /*********************
 GENERAL STYLES
 *********************/
@@ -267,6 +271,7 @@ HOMEPAGE
   font-size: 1.3em;
   color: #d9d9d9;
   font-weight: 100;
+  display: block;
 }
 .intro-text span {
   color: #d26755;
@@ -375,6 +380,7 @@ HEADER STYLES
 
 #logo {
   float: left;
+  display: block;
 }
 
 /*********************
@@ -383,6 +389,7 @@ NAVIGATION STYLES
 .nav {
   border: 0;
   padding-top: 4.5em;
+  float: right;
   /* end .menu ul li */
   /* highlight current page */
   /* end current highlighters */
@@ -545,7 +552,7 @@ be seen on the Desktop.
   bottom: 2em;
   width: 40%;
   line-height: 1.5em;
-  font-size: 1.3em;
+  font-size: 1.1em;
   color: #d9d9d9;
   font-weight: 100;
 }

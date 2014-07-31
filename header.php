@@ -104,6 +104,13 @@
 				</g>
 				</svg>
 			</div>
+
+			<p class="mobile-text">
+			My name is <span> Ronan Vallelly </span>,  a visual designer and front end
+			developer currently living in Glasgow. I love to code, design stuff and occasionally spin records. I craft beautiful, functional and simple experiences for web and mobile. Feel free to check out some of my <span> recent work </span>  below.
+			</p>
+
+
 			<?php elseif (is_page('Me')):?>
 			<div class="text-center cf">
 				<p class="intro-page ">
@@ -120,18 +127,13 @@
 					developer currently living in Glasgow. I love to code, design stuff and occasionally spin records. I craft beautiful, functional and simple experiences for web and mobile.
 					</p>
 				</div>
-
-
-	<?php elseif (is_single()):?>
+				<?php elseif (is_single()):?>
 				<div class="text-center cf">
 					<p class="intro-page ">
 					My name is  Journal,  a visual designer and front end
 					developer currently living in Glasgow. I love to code, design stuff and occasionally spin records. I craft beautiful, functional and simple experiences for web and mobile.
 					</p>
 				</div>
-
-
-
 				<?php elseif (is_page('Services')):?>
 				
 				<div class="text-center cf">
