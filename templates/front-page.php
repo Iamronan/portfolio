@@ -18,7 +18,7 @@ Template Name: Home Page
 		<ul class="m-all t-all l-all cf recentwork grid">
 			<li class="m-all t-1of3 d-1of3">
 				<figure class="effect-zoe">
-					<img src="http://localhost/iamronan_redesign/wordpress/wp-content/uploads/2014/07/imaronan_mob.jpg">
+					<img src="<?php echo bloginfo('url'); ?>/wp-content/themes/iamronan/library/images/imaronan_mob.jpg">
 					<figcaption>
 					<h2>Traffic <span>Web</span></h2>
 			<!-- 		<span class="icon-heart"></span> -->
@@ -30,7 +30,7 @@ Template Name: Home Page
 				</figure>
 			</li>
 			<li class="m-all t-1of3 d-1of3"><figure class="effect-zoe">
-				<img src="http://localhost/iamronan_redesign/wordpress/wp-content/uploads/2014/07/ardardan.jpg">
+				<img src="<?php echo bloginfo('url'); ?>/wp-content/themes/iamronan/library/images/ardardan.jpg">
 				<figcaption>
 				<h2>Creative <span>Zoe</span></h2>
 			<!-- 	<span class="icon-heart"></span> -->
@@ -42,7 +42,7 @@ Template Name: Home Page
 			</figure>
 		</li>
 		<li class="m-all t-1of3 d-1of3"><figure class="effect-zoe">
-			<img src="http://localhost/iamronan_redesign/wordpress/wp-content/uploads/2014/07/safe.jpg">
+			<img src="<?php echo bloginfo('url'); ?>/wp-content/themes/iamronan/library/images/safe.jpg">
 			<figcaption>
 			<h2>Creative <span>Zoe</span></h2>
 		<!-- 	<span class="icon-heart"></span> -->
@@ -54,7 +54,7 @@ Template Name: Home Page
 		</figure>
 	</li>
 	<li class="m-all t-1of3 d-1of3"><figure class="effect-zoe">
-		<img src="http://localhost/iamronan_redesign/wordpress/wp-content/uploads/2014/07/kreate.jpg">
+		<img src="<?php echo bloginfo('url'); ?>/wp-content/themes/iamronan/library/images/kreate.jpg">
 		<figcaption>
 		<h2>Creative <span>Zoe</span></h2>
 		<!-- <span class="icon-heart"></span> -->
@@ -66,7 +66,7 @@ Template Name: Home Page
 	</figure>
 </li>
 <li class="m-all t-1of3 d-1of3"><figure class="effect-zoe">
-	<img src="http://localhost/iamronan_redesign/wordpress/wp-content/uploads/2014/07/traffic-web.jpg">
+	<img src="<?php echo bloginfo('url'); ?>/wp-content/themes/iamronan/library/images/traffic-web.jpg">
 	<figcaption>
 	<h2>Creative <span>Zoe</span></h2>
 <!-- 	<span class="icon-heart"></span> -->
@@ -78,7 +78,7 @@ Template Name: Home Page
 </figure>
 </li>
 <li class="m-all t-1of3 d-1of3"><figure class="effect-zoe">
-<img src="http://localhost/iamronan_redesign/wordpress/wp-content/uploads/2014/07/our-haus.jpg">
+<img src="<?php echo bloginfo('url'); ?>/wp-content/themes/iamronan/library/images/our-haus.jpg">
 <figcaption>
 <h2>Creative <span>Zoe</span></h2>
 <!-- <span class="icon-heart"></span> -->

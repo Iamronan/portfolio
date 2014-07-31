@@ -188,6 +188,15 @@ and other resources. You'll also notice the grid starts to
 come into play. Have fun!
 
 ******************************************************************/
+.hi-icon-wrap {
+  clear: none;
+}
+
+.hi-icon {
+  width: 90px;
+  height: 90px;
+}
+
 .tools {
   margin-left: 0;
   padding-top: 0.5em;

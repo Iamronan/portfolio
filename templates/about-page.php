@@ -51,7 +51,7 @@ Away from my iMac you will most likely find me at the front of a classroom, drin
 
 				</li>
 				<li class="m-all t-1of2 d-1of2">
-					<img class="wow  animated fadeInRight" src="http://localhost/iamronan_redesign/wordpress/wp-content/uploads/2014/07/studio.png">
+					<img class="wow  animated fadeInRight" src="<?php echo bloginfo('url'); ?>/wp-content/themes/iamronan/library/images/studio.png">
 
 
 					<div class="hire-me wow  animated fadeInUp"><button class="blue-btn"> CV </button> </div>

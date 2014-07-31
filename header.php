@@ -119,7 +119,7 @@
 			<?php elseif (is_page('Me')):?>
 			<div class="text-center cf">
 				<p class="intro-page ">
-				Hi I'm Ronan Vallelly,  a coffee loving digital designer and front end developer based in Glasgow. Currently crafting pixels at Traffic Design Consultants. You can find my full profile and CV below.
+				Hi I'm Ronan Vallelly,  a coffee loving digital designer and front end developer based in Glasgow. Currently crafting pixels at Traffic Design Consultants. You can ind my full profile below.
 				</p>
 				<div class="me">
 					<img src="http://localhost/iamronan_redesign/wordpress/wp-content/uploads/2014/07/me.png"/>
