@@ -2717,8 +2717,8 @@ Licensed under the MIT license - http://opensource.org/licenses/MIT
 Copyright (c) 2014 Daniel Eden
 */
 .animated {
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
+  -webkit-animation-duration: 1.6s;
+  animation-duration: 1.6s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
@@ -6332,6 +6332,18 @@ h5, .h5 {
 /*********************
 HEADER STYLES
 *********************/
+.loader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url("../images/logo_load.png") 50% 50% no-repeat;
+  background-color: transparent;
+  background-size: 160px 160px;
+}
+
 #content {
   margin-top: 0em;
   border-top: 20px solid #d26755;
@@ -7131,8 +7143,8 @@ you can add resource intensive styles.
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-top: -200px;
-    margin-left: -175px;
+    margin-top: -195px;
+    margin-left: -195px;
   }
 
   /*********************

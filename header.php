@@ -32,7 +32,12 @@
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>
 <body <?php body_class(); ?> >
-	<div id="container" class="animated fadeIn ">
+
+		<div class="loader animated zoomOut">
+		
+	</div>
+
+		<div id="container" class="animated fadeIn ">
 		
 		<header class="header" role="banner">
 			<div id="inner-header" class="wrap cf">
