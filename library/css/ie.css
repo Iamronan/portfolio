@@ -599,7 +599,10 @@ be seen on the Desktop.
 }
 
 .icons li {
-  padding: 5em;
+  padding-right: 5em;
+  padding-left: 5em;
+  padding-bottom: 2em;
+  padding-top: 2em;
 }
 .icons li h2 {
   text-align: center;
