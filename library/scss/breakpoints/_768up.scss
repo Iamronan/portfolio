@@ -12,6 +12,37 @@ come into play. Have fun!
 
 ******************************************************************/
 
+.tools 
+
+
+{
+
+margin-left:0;
+padding-top:0.5em;
+
+
+	h2 {
+
+font-weight:300;
+padding-bottom:1em;
+
+	}
+
+
+
+li {
+
+
+float:left;
+font-size:3.3em;
+padding-right:0.2em;
+
+}
+
+}
+
+
+
 .mobile-text {
 
 display:none;
@@ -163,9 +194,9 @@ padding-top:3em;
 /*width:400px;*/
 margin:auto;
 padding-top:2em;
-width:80%;
+width:60%;
 line-height: 1.5em;
-font-size: 1.3em;
+font-size: 1.4em;
 color: $light-text-color;
 font-weight:100;
 

@@ -18,20 +18,80 @@ Template Name: About
 		<div id="main" class="m-all t-3of3 d-7f7 cf" role="main">
 			<ul class="m-all t-all l-all cf ">
 				<li class="m-all t-1of2 d-1of2">
+
+
+
+
+
+
+
+
+
 					<p class="wow  animated fadeInLeft">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+					
+I am a highly motivated digital designer and front end developer with over 8 years experience working in commercial and freelance environments. I am a creative thinker who loves to embrace new ideas and technology. I am always inspired by the visual world around me and strive to reflect this through my design. I am versatile, love to experiment and constantly strive to share my knowledge with others.
 					</p>
 					
 					<p class="wow  animated fadeInLeft" >
-					nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+					I am extremely passionate about the web and I love to design and craft beautiful, usable, cross browser responsive websites using the latest web technologies including HTML5, SASS, CSS3, Jquery and Wordpress.
+
 					</p>
+
+<p> 	 </p>
+				
+
+
+
+						<p class="wow  animated fadeInLeft" >
+				
+Away from my iMac you will most likely find me at the front of a classroom, drinking coffee, in the kitchen, or tweaking synthisisers.
+
+					</p>
+
+
 				</li>
 				<li class="m-all t-1of2 d-1of2">
 					<img class="wow  animated fadeInRight" src="http://localhost/iamronan_redesign/wordpress/wp-content/uploads/2014/07/studio.png">
+
+
+					<div class="hire-me wow  animated fadeInUp"><button class="blue-btn"> CV </button> </div>
 					
 				</li>
 				
 			</ul>
+
+
+
+<div class="tools m-all t-all d-all">
+
+<h2 class="wow  animated fadeIn cf"> Tools of the Trade  </h2>
+
+<ul class="wow  animated fadeIn cf"> 
+
+ <li><i class="devicon-grunt-plain"></i></li>
+
+	 <li><i class="devicon-html5-plain"></i></li>
+
+	<li><i class="devicon-illustrator-line"></i></li>
+
+	<li> <i class="devicon-gulp-plain"></i></li>
+
+    <li> <i class="devicon-wordpress-plain"></i></li>
+
+      <li><i class="devicon-css3-plain"></i></li>
+
+    <li><i class="devicon-sass-plain"></i> </li>
+
+    <li> <i class="devicon-photoshop-line"></i></li>
+
+    <li><i class="devicon-jquery-plain"></i></li>
+          <li><i class="devicon-git-plain"></i></li>
+
+
+ 
+</div>
+
+
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 			
 			<?php endwhile; else : ?>

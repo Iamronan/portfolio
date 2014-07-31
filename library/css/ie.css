@@ -188,6 +188,20 @@ and other resources. You'll also notice the grid starts to
 come into play. Have fun!
 
 ******************************************************************/
+.tools {
+  margin-left: 0;
+  padding-top: 0.5em;
+}
+.tools h2 {
+  font-weight: 300;
+  padding-bottom: 1em;
+}
+.tools li {
+  float: left;
+  font-size: 3.3em;
+  padding-right: 0.2em;
+}
+
 .mobile-text {
   display: none;
 }
@@ -287,9 +301,9 @@ HOMEPAGE
   /*width:400px;*/
   margin: auto;
   padding-top: 2em;
-  width: 80%;
+  width: 60%;
   line-height: 1.5em;
-  font-size: 1.3em;
+  font-size: 1.4em;
   color: #d9d9d9;
   font-weight: 100;
 }
@@ -526,6 +540,16 @@ This is the desktop size. It's larger than an iPad so it will only
 be seen on the Desktop.
 
 ******************************************************************/
+.tools {
+  margin-left: 0;
+  padding-top: 0.5em;
+}
+.tools li {
+  float: left;
+  font-size: 3.5em;
+  padding-right: 0.4em;
+}
+
 .text-center {
   margin: auto;
   width: 1000px;

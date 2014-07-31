@@ -119,8 +119,7 @@
 			<?php elseif (is_page('Me')):?>
 			<div class="text-center cf">
 				<p class="intro-page ">
-				My name is  Ronan Vallelly,  a visual designer and front end
-				developer currently living in Glasgow. I love to code, design stuff and occasionally spin records. I craft beautiful, functional and simple experiences for web and mobile.
+				Hi I'm Ronan Vallelly,  a coffee loving digital designer and front end developer based in Glasgow. Currently crafting pixels at Traffic Design Consultants. You can find my full profile and CV below.
 				</p>
 				<div class="me">
 					<img src="http://localhost/iamronan_redesign/wordpress/wp-content/uploads/2014/07/me.png"/>
@@ -128,23 +127,20 @@
 				<?php elseif (is_home('Journal')):?>
 				<div class="text-center cf">
 					<p class="intro-page ">
-					My name is  Journal,  a visual designer and front end
-					developer currently living in Glasgow. I love to code, design stuff and occasionally spin records. I craft beautiful, functional and simple experiences for web and mobile.
+					Ocassional ramblings, tutorials and articles on all things digital. May include a recipe or two, photos of my pet greyhound and food selfies - if your lucky. Opinions my own.
 					</p>
 				</div>
 				<?php elseif (is_single()):?>
 				<div class="text-center cf">
 					<p class="intro-page ">
-					My name is  Journal,  a visual designer and front end
-					developer currently living in Glasgow. I love to code, design stuff and occasionally spin records. I craft beautiful, functional and simple experiences for web and mobile.
+					Ocassional ramblings, tutorials and articles on all things digital. May include a recipe or two, photos of my pet greyhound and food selfies - if your lucky. Opinions my own.
 					</p>
 				</div>
 				<?php elseif (is_page('Services')):?>
 				
 				<div class="text-center cf">
 					<p class="intro-page ">
-					My name is  Services,  a visual designer and front end
-					developer currently living in Glasgow. I love to code, design stuff and occasionally spin records. I craft beautiful, functional and simple experiences for web and mobile.
+					Hi I'm Ronan Vallelly,  a coffee loving digital designer and front end developer based in Glasgow. I am currently crafting pixels for Traffic Design Consultants. 
 					</p>
 				</div>
 				<?php elseif (is_page('Traffic')):?>
