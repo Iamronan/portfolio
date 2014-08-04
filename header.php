@@ -50,7 +50,7 @@
 				<?php // if you'd like to use the site description you can un-comment it below ?>
 				<?php // bloginfo('description'); ?>
 				
-				<div class="menu-button">Menu</div>
+				<div class="menu-button animated fadeInDown">Menu</div>
 				<nav role="navigation">
 					<?php wp_nav_menu(array(
 					'container' => false,                           // remove nav container
@@ -68,8 +68,8 @@
 				</nav>
 			</div>
 			<div class="page-title-section animated fadeInDown">
-				<?php if(is_page('Journal')):?>
-				<h1 class="page-title">Work</h1>
+				<?php if(is_page('Work')):?>
+			
 				<?php elseif (is_home('Journal')):?>
 				<h1 class="page-title">Journal</h1>
 				<?php elseif (is_page('Me')):?>
@@ -112,7 +112,7 @@
 
 			<p class="mobile-text">
 			My name is <span> Ronan Vallelly </span>,  a visual designer and front end
-			developer currently living in Glasgow. I love to code, design stuff and occasionally spin records. I craft beautiful, functional and simple experiences for web and mobile. Feel free to check out some of my <span> recent work </span>  below.
+			developer currently living in Glasgow. I craft beautiful, functional and simple experiences for web and mobile. Feel free to check out some of my <span> recent work </span>  below.
 			</p>
 
 
@@ -122,7 +122,7 @@
 				Hi I'm Ronan Vallelly,  a coffee loving digital designer and front end developer based in Glasgow. Currently crafting pixels at Traffic Design Consultants. You can ind my full profile below.
 				</p>
 				<div class="me">
-					<img src="http://localhost/iamronan_redesign/wordpress/wp-content/uploads/2014/07/me.png"/>
+					<img src="<?php echo bloginfo('url'); ?>/wp-content/themes/iamronan_portfolio/library/images/me.png"/>
 				</div>
 				<?php elseif (is_home('Journal')):?>
 				<div class="text-center cf">
@@ -145,7 +145,7 @@
 				</div>
 				<?php elseif (is_page('Traffic')):?>
 				<div class="text-center web-header animated fadeInDown cf">
-					<img src="http://localhost/iamronan_redesign/wordpress/wp-content/uploads/2014/07/treaffic-web.png">
+					<img src="<?php echo bloginfo('url'); ?>/wp-content/themes/iamronan_portfolio/library/images/treaffic-web.png" class="case-study-header">
 				</div>
 				<?php else:?>
 				

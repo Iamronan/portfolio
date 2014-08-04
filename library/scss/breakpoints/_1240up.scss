@@ -8,6 +8,25 @@ You can add some advanced styles here if you like. This kicks in
 on larger screens.
 
 ******************************************************************/
+
+
+#content #main .grid .services-icon {
+
+width:80%;
+margin:auto;
+text-align:center;
+
+}
+
+
+
+.case-study-header {
+
+width:100%;
+margin:auto;
+
+}
+
 .tools 
 
 
@@ -99,10 +118,10 @@ font-weight:200;
 /*width:400px;*/
 padding-top:3em;
 
-line-height: 1.3em;
-font-size: 1.8em;
-color: $light-text-color;
-font-weight:100;
+line-height: 1.7em;
+font-size: 1.5em;
+color: #d9d9d9;
+font-weight: 100;
 
  span {
 

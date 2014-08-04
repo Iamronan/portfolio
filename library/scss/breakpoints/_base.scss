@@ -12,6 +12,122 @@ and will be used across all viewports.
 ******************************************************************/
 
 
+
+#container .header .web-header {
+
+
+text-align:center;
+padding-top:3em;
+}
+
+
+.case-study-header {
+
+width:80%;
+margin:auto;
+
+}
+
+p, h2 {
+
+font-weight:200;
+
+}
+
+.page-template-templatesfront-page-php .page-title-section {
+
+display:none;
+
+}
+
+#content #main .grid .services-icon {
+
+width:60%;
+margin:auto;
+text-align:center;
+
+}
+
+#content #main .grid li {
+
+text-align:center;
+font-weight:100;
+padding-top:1em;
+
+
+h2 {
+
+font-weight:100;
+
+}
+
+}
+
+
+.me {
+
+
+width:50%;
+margin:auto;
+display:none;
+
+}
+
+
+#content #main .me-mobile {
+
+	text-align:center;
+
+img {
+width:50%;
+margin:auto;
+
+}
+
+
+}
+
+
+
+.recentwork      
+
+{
+	padding:0px;
+	margin:0px;
+
+
+li {
+
+padding:0px;
+margin:0px;
+/*margin-bottom:-10px;*/
+
+
+}
+
+}
+
+
+.home-logo {
+width: 250px;
+height:150px;
+margin:auto;
+margin-top:-20px;
+padding-bottom:1em;
+}
+
+.scroll-down {
+
+position:absolute;
+bottom:2px;
+left:47%;
+font-size:2em;
+color: #ffffff;
+
+
+}
+
+
 .hi-icon {
 
 width:45px;
@@ -56,11 +172,21 @@ padding-right:0.4em;
 
 .mobile-text {
 
-display:block;
+display: block;
 line-height: 1.5em;
-font-size: 1.3em;
-color: $light-text-color;
-font-weight:100;
+font-size: 1.2em;
+color: #d9d9d9;
+font-weight: 100;
+clear: both;
+margin-top: 3.5em;
+padding:0.5em;
+
+ span {
+
+color:$iamronanpink;
+
+ }
+
 
 }
 
@@ -115,7 +241,7 @@ font-weight:100;
 
 /*width:400px;*/
 margin:auto;
-padding-top:2em;
+padding-top:4em;
 width:90%;
 line-height: 1.5em;
 font-size: 1.3em;
@@ -167,11 +293,6 @@ button {
 
 }
 
-.page-id-7 .page-title {
-
-display:none;
-
-}
 
 .social {
 
@@ -316,7 +437,7 @@ H1, H2, H3, H4, H5 STYLES
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 	text-rendering: optimizelegibility;
-	font-weight: 500;
+	font-weight: 200;
 	/*
 	if you're going to use webfonts, be sure to check your weights
 	http://css-tricks.com/watch-your-font-weight/
@@ -373,26 +494,13 @@ HEADER STYLES
 }
 
 
-#content {
-
-    margin-top: 0em;
-	border-top: 20px solid  $iamronanpink;
-	overflow:hidden;
-	clear:both; 
-
-}
-
 
 .header {
 	      
 	      width: 100%;
           height: 100%;
-	      background: url(../images/portrait.jpg) no-repeat center center ; 
+	      background: url(../images/portrait_mobile.jpg) no-repeat center center ; 
 	      position: relative;
-	     
-
-	     
-
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -435,7 +543,17 @@ left:20px;
 
 .page-template-templatesabout-page-php .header {
 
-background: url(../images/me.jpg) no-repeat center center ; 
+background: url(../images/me_mobile.jpg) no-repeat center center ; 
+
+	      width: 100%;
+          height: 100%;
+          osition: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
 
 }
 
@@ -444,17 +562,40 @@ background: url(../images/me.jpg) no-repeat center center ;
 
 background: url(../images/traffic.jpg) no-repeat center center ; 
 
+	      width: 100%;
+          height: 100%;
+
 }
 
 .page-template-templatesservices-page-php .header  {
 
-background: url(../images/services_bg.jpg) no-repeat center center ; 
+background: url(../images/services_bg_mobile.jpg) no-repeat center center ; 
+
+	      width: 100%;
+          height: 100%;
+          	      position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
 
 }
 
 .single .header, .blog .header {
 
-background: url(../images/journal_bg.jpg) no-repeat center center ; 
+background: url(../images/journal_bg_mobile.jpg) no-repeat center center ; 
+
+	      width: 100%;
+          height: 100%;
+          osition: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
 
 }
 
@@ -585,9 +726,16 @@ font-size:1.7em;
 POSTS & CONTENT STYLES
 *********************/
 
+
 #content {
-	margin-top: 1.5em;
+
+    margin-top: 0px;
+	border-top: 20px solid  $iamronanpink;
+	overflow:hidden;
+	clear:both; 
+
 }
+
 
 		.hentry {
 			background-color: $white;

@@ -188,6 +188,20 @@ and other resources. You'll also notice the grid starts to
 come into play. Have fun!
 
 ******************************************************************/
+#container .header .web-header {
+  text-align: center;
+}
+
+.me-mobile {
+  display: none;
+}
+
+.me {
+  width: 50%;
+  margin: auto;
+  display: block;
+}
+
 .hi-icon-wrap {
   clear: none;
 }
@@ -224,6 +238,9 @@ LAYOUT & GRID STYLES
 p {
   font-size: 1.5em;
   font-weight: 200;
+  line-height: 1.7em;
+  font-size: 1.5em;
+  font-weight: 100;
 }
 
 .social .fa {
@@ -567,7 +584,7 @@ be seen on the Desktop.
 }
 
 #container .header .web-header {
-  padding-top: 6em;
+  padding-top: 4em;
 }
 
 .wrap {
