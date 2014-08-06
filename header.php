@@ -32,13 +32,12 @@
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>
 <body <?php body_class(); ?> >
-
-		<div class="loader animated zoomOut">
+	<div class="loader animated zoomOut">
 		
 	</div>
-
-		<div id="container" class="animated fadeIn ">
+	<div id="container" class="animated fadeIn ">
 		
+		<!-- header section including small logo & menu -->
 		<header class="header" role="banner">
 			<div id="inner-header" class="wrap cf">
 				<?php // to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> ?>
@@ -67,9 +66,11 @@
 					)); ?>
 				</nav>
 			</div>
+
+			<!-- page title -->
 			<div class="page-title-section animated fadeInDown">
 				<?php if(is_page('Work')):?>
-			
+				
 				<?php elseif (is_home('Journal')):?>
 				<h1 class="page-title">Journal</h1>
 				<?php elseif (is_page('Me')):?>
@@ -81,7 +82,7 @@
 				<?php endif;?>
 			</div>
 			
-			
+		<!-- 	main svg logo with png fallback -->
 			<?php  if ( is_page('Work') ) :?>
 			<div class="home-logo ">
 				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -109,12 +110,12 @@
 				</g>
 				</svg>
 			</div>
-
 			<p class="mobile-text">
 			My name is <span> Ronan Vallelly </span>,  a visual designer and front end
 			developer currently living in Glasgow. I craft beautiful, functional and simple experiences for web and mobile. Feel free to check out some of my <span> recent work </span>  below.
 			</p>
 
+          <!--   header info -->
 
 			<?php elseif (is_page('Me')):?>
 			<div class="text-center cf">
@@ -140,18 +141,39 @@
 				
 				<div class="text-center cf">
 					<p class="intro-page ">
-					Hi I'm Ronan Vallelly,  a coffee loving digital designer and front end developer based in Glasgow. I am currently crafting pixels for Traffic Design Consultants. 
+					Hi I'm Ronan Vallelly,  a coffee loving digital designer and front end developer based in Glasgow. I am currently crafting pixels for Traffic Design Consultants.
 					</p>
 				</div>
 				<?php elseif (is_page('Traffic')):?>
 				<div class="text-center web-header animated fadeInDown cf">
-					<img src="<?php echo bloginfo('url'); ?>/wp-content/themes/iamronan_portfolio/library/images/treaffic-web.png" class="case-study-header">
+					<img src="<?php echo bloginfo('url'); ?>/wp-content/themes/iamronan_portfolio/library/images/traffic-design-case-study.png" class="case-study-header">
+				</div>
+				<?php elseif (is_page('Our Haus')):?>
+				<div class="text-center web-header animated fadeInDown cf">
+					<img src="<?php echo bloginfo('url'); ?>/wp-content/themes/iamronan_portfolio/library/images/our-haus-case-study.png" class="case-study-header">
+				</div>
+				<?php elseif (is_page('Urbancroft')):?>
+				<div class="text-center web-header animated fadeInDown cf">
+					<img src="<?php echo bloginfo('url'); ?>/wp-content/themes/iamronan_portfolio/library/images/urbancroft-case-study.png" class="case-study-header">
+				</div>
+				<?php elseif (is_page('Ardardan')):?>
+				<div class="text-center web-header animated fadeInDown cf">
+					<img src="<?php echo bloginfo('url'); ?>/wp-content/themes/iamronan_portfolio/library/images/ardardan-case-study.png" class="case-study-header">
+				</div>
+				<?php elseif (is_page('Leith')):?>
+				<div class="text-center web-header animated fadeInDown cf">
+					<img src="<?php echo bloginfo('url'); ?>/wp-content/themes/iamronan_portfolio/library/images/leith-case-study.png" class="case-study-header">
+				</div>
+				<?php elseif (is_page('Safe & Sound')):?>
+				<div class="text-center web-header animated fadeInDown cf">
+					<img src="<?php echo bloginfo('url'); ?>/wp-content/themes/iamronan_portfolio/library/images/safe-case-study.png" class="case-study-header">
 				</div>
 				<?php else:?>
 				
 				<?php endif;?>
 			</div>
 			
+		<!-- 	animated info on home page -->
 			
 			<?php  if ( is_page('Work') ) { ?>
 			<p class="intro-text animated fadeInLeftBig">

@@ -22,7 +22,9 @@ Template Name: About
 
 
 
-
+<div class="me-mobile">
+					<img src="<?php echo bloginfo('url'); ?>/wp-content/themes/iamronan_portfolio/library/images/me.png"/>
+				</div>
 
 
 
@@ -51,7 +53,7 @@ Away from my iMac you will most likely find me at the front of a classroom, drin
 
 				</li>
 				<li class="m-all t-1of2 d-1of2">
-					<img class="wow  animated fadeInRight" src="<?php echo bloginfo('url'); ?>/wp-content/themes/iamronan/library/images/studio.png">
+					<img class="wow  animated fadeInRight" src="<?php echo bloginfo('url'); ?>/wp-content/themes/iamronan_portfolio/library/images/studio.png">
 
 
 					<div class="hire-me wow  animated fadeInUp"><button class="blue-btn"> CV </button> </div>

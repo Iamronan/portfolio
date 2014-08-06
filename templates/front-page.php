@@ -18,74 +18,74 @@ Template Name: Home Page
 		<ul class="m-all t-all l-all cf recentwork grid">
 			<li class="m-all t-1of3 d-1of3">
 				<figure class="effect-zoe">
-					<img src="<?php echo bloginfo('url'); ?>/wp-content/themes/iamronan/library/images/imaronan_mob.jpg">
+					<img src="<?php echo bloginfo('url'); ?>/wp-content/themes/iamronan_portfolio/library/images/imaronan_mob.jpg">
 					<figcaption>
-					<h2>Traffic <span>Web</span></h2>
+					<h2>Leith  <span>Agency</span></h2>
 			<!-- 		<span class="icon-heart"></span> -->
 					<span class="icon-eye"></span>
 				<!-- 	<span class="icon-paper-clip"></span> -->
 					<!-- <p>Zoe never had the patience of her sisters. She deliberately punched the bear in his face.</p> -->
-					<a href="http://localhost/iamronan_redesign/wordpress/traffic/">View more</a>
+					<a href="http://localhost:8888/wordpress/leith/">View more</a>
 					</figcaption>
 				</figure>
 			</li>
 			<li class="m-all t-1of3 d-1of3"><figure class="effect-zoe">
-				<img src="<?php echo bloginfo('url'); ?>/wp-content/themes/iamronan/library/images/ardardan.jpg">
+				<img src="<?php echo bloginfo('url'); ?>/wp-content/themes/iamronan_portfolio/library/images/ardardan.jpg">
 				<figcaption>
-				<h2>Creative <span>Zoe</span></h2>
+				<h2>Ardardan <span>Zoe</span></h2>
 			<!-- 	<span class="icon-heart"></span> -->
 				<span class="icon-eye"></span>
 			<!-- 	<span class="icon-paper-clip"></span> -->
 			<!-- 	<p>Zoe never had the patience of her sisters. She deliberately punched the bear in his face.</p> -->
-				<a href="#">View more</a>
+				<a href="http://localhost:8888/wordpress/ardardan/">View more</a>
 				</figcaption>
 			</figure>
 		</li>
 		<li class="m-all t-1of3 d-1of3"><figure class="effect-zoe">
-			<img src="<?php echo bloginfo('url'); ?>/wp-content/themes/iamronan/library/images/safe.jpg">
+			<img src="<?php echo bloginfo('url'); ?>/wp-content/themes/iamronan_portfolio/library/images/safe.jpg">
 			<figcaption>
-			<h2>Creative <span>Zoe</span></h2>
+			<h2>Safe and Sound <span>Zoe</span></h2>
 		<!-- 	<span class="icon-heart"></span> -->
 			<span class="icon-eye"></span>
 		<!-- 	<span class="icon-paper-clip"></span> -->
 		<!-- 	<p>Zoe never had the patience of her sisters. She deliberately punched the bear in his face.</p> -->
-			<a href="#">View more</a>
+			<a href="http://localhost:8888/wordpress/safe-sound/">View more</a>
 			</figcaption>
 		</figure>
 	</li>
 	<li class="m-all t-1of3 d-1of3"><figure class="effect-zoe">
-		<img src="<?php echo bloginfo('url'); ?>/wp-content/themes/iamronan/library/images/kreate.jpg">
+		<img src="<?php echo bloginfo('url'); ?>/wp-content/themes/iamronan_portfolio/library/images/kreate.jpg">
 		<figcaption>
 		<h2>Creative <span>Zoe</span></h2>
 		<!-- <span class="icon-heart"></span> -->
 		<span class="icon-eye"></span>
 		<!-- <span class="icon-paper-clip"></span> -->
 	<!-- 	<p>Zoe never had the patience of her sisters. She deliberately punched the bear in his face.</p> -->
-		<a href="#">View more</a>
+		<a href="http://localhost:8888/wordpress/urbancroft/">View more</a>
 		</figcaption>
 	</figure>
 </li>
 <li class="m-all t-1of3 d-1of3"><figure class="effect-zoe">
-	<img src="<?php echo bloginfo('url'); ?>/wp-content/themes/iamronan/library/images/traffic-web.jpg">
+	<img src="<?php echo bloginfo('url'); ?>/wp-content/themes/iamronan_portfolio/library/images/traffic-web.jpg">
 	<figcaption>
-	<h2>Creative <span>Zoe</span></h2>
+	<h2>Traffic <span>Zoe</span></h2>
 <!-- 	<span class="icon-heart"></span> -->
 	<span class="icon-eye"></span>
 	<!-- <span class="icon-paper-clip"></span> -->
 <!-- 	<p>Zoe never had the patience of her sisters. She deliberately punched the bear in his face.</p> -->
-	<a href="#">View more</a>
+	<a href="http://localhost:8888/wordpress/traffic/">View more</a>
 	</figcaption>
 </figure>
 </li>
 <li class="m-all t-1of3 d-1of3"><figure class="effect-zoe">
-<img src="<?php echo bloginfo('url'); ?>/wp-content/themes/iamronan/library/images/our-haus.jpg">
+<img src="<?php echo bloginfo('url'); ?>/wp-content/themes/iamronan_portfolio/library/images/our-haus.jpg">
 <figcaption>
-<h2>Creative <span>Zoe</span></h2>
+<h2>Our Haus <span>Zoe</span></h2>
 <!-- <span class="icon-heart"></span> -->
 <span class="icon-eye"></span>
 <!-- <span class="icon-paper-clip"></span> -->
 <!-- <p>Zoe never had the patience of her sisters. She deliberately punched the bear in his face.</p> -->
-<a href="#">View more</a>
+<a href="http://localhost:8888/wordpress/our-haus/">View more</a>
 </figcaption>
 </figure>
 </li>

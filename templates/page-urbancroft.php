@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name:Ourhaus
+Template Name:Urbancroft
 *
 * This is your custom page template. You can create as many of these as you need.
 * Simply name is "page-whatever.php" and in add the "Template Name" title at the
@@ -27,7 +27,7 @@ Template Name:Ourhaus
 					</p>
 				</li>
 				<li class="m-all t-1of2 d-1of2">
-					<img class="wow  animated fadeInRight" src="http://localhost/iamronan_redesign/wordpress/wp-content/uploads/2014/07/studio.png">
+					<img class="wow  animated fadeInRight" src="<?php echo bloginfo('url'); ?>/wp-content/themes/iamronan_portfolio/library/images/studio.png">
 					
 				</li>
 				
@@ -52,3 +52,4 @@ Template Name:Ourhaus
 	</div>
 </div>
 <?php get_footer(); ?>
+

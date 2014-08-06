@@ -18,27 +18,27 @@ Template Name: Services
 		<div id="main" class="m-all t-3of3 d-7f7 cf " role="main">
 			<ul class="m-all t-all l-all cf grid icons">
 				<li class="m-all t-1of3 d-1of3 wow animated fadeInRight">
-					<img src="<?php echo bloginfo('url'); ?>/wp-content/themes/iamronan/library/images/coffee.png">
+					<img class="services-icon" src="<?php echo bloginfo('url'); ?>/wp-content/themes/iamronan_portfolio/library/images/coffee.png">
 					<h2> Branding <h2>
 				</li>
 				<li class="m-all t-1of3 d-1of3 wow animated fadeInRight">
-					<img src="<?php echo bloginfo('url'); ?>/wp-content/themes/iamronan/library/images/ux.png">
+					<img  src="<?php echo bloginfo('url'); ?>/wp-content/themes/iamronan_portfolio/library/images/ux.png" class="services-icon">
 					<h2> UX/UI <h2>
 				</li>
 				<li class="m-all t-1of3 d-1of3 wow animated fadeInRight">
-					<img src="<?php echo bloginfo('url'); ?>/wp-content/themes/iamronan/library/images/chart.png">
+					<img src="<?php echo bloginfo('url'); ?>/wp-content/themes/iamronan_portfolio/library/images/chart.png" class="services-icon">
 					<h2> Design for Print<h2>
 				</li>
 				<li class="m-all t-1of3 d-1of3 wow animated fadeInLeft">
-					<img src="<?php echo bloginfo('url'); ?>/wp-content/themes/iamronan/library/images/mobile.png">
+					<img src="<?php echo bloginfo('url'); ?>/wp-content/themes/iamronan_portfolio/library/images/mobile.png" class="services-icon">
 					<h2> Responsive Web Design<h2>
 				</li>
 				<li class="m-all t-1of3 d-1of3 wow animated fadeInLeft">
-					<img src="<?php echo bloginfo('url'); ?>/wp-content/themes/iamronan/library/images/bash.png">
+					<img src="<?php echo bloginfo('url'); ?>/wp-content/themes/iamronan_portfolio/library/images/bash.png" class="services-icon">
 					<h2> Front-end Development <h2>
 				</li>
 				<li class="m-all t-1of3 d-1of3 wow animated fadeInLeft">
-					<img src="<?php echo bloginfo('url'); ?>/wp-content/themes/iamronan/library/images/cms.png">
+					<img src="<?php echo bloginfo('url'); ?>/wp-content/themes/iamronan_portfolio/library/images/cms.png" class="services-icon">
 					<h2> CMS <h2>
 				</li>
 			</ul>
