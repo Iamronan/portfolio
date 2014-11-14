@@ -23,9 +23,6 @@
 					<a href="#set-8" class="hi-icon  wow animated fadeInRight" ><i class="fa fa-google-plus"> </i> </a>
 				
 				</div>
-			</section>
-
-	<section id="set-8">
 			
 	</div>
 </footer>
@@ -33,33 +30,12 @@
 </div>
 <?php // all js scripts are loaded in library/bones.php ?>
 <?php wp_footer(); ?>
-<script type="text/javascript">
-
-
-jQuery(document).ready(function($) {
-
-
-	 $(window).load(function() {
-    $(".loader").fadeOut("slow");
-})
-
-	// initialize FlexNav
-	$(".flexnav").flexNav();
-$('.scroll-down a ').smoothScroll();
-});
-
-</script>
 
 <script type="text/javascript">
 
  new WOW().init();
 
-
 </script>
-
-
-
-
 
 </body>
 </html> <!-- end of site. what a ride! -->

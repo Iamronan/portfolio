@@ -51,16 +51,39 @@ Away from my iMac you will most likely find me at the front of a classroom, drin
 					</p>
 
 
+
+			<h2 class="wow  animated fadeInUp">Skills & Experience </h2>
+					<ul class="wow  animated fadeInUp list" >
+						<li>  - Proficient with Photoshop and Illustrator</li>
+						<li>  - Experience with developing  wireframes and related designs<li>
+							<li>  - Good understanding of UX design, principles and best practices<li>
+								<li>  - Strong skills in hand-coding HTML, CSS and Javascript </li>
+								<li>  - Good experience of mobile/responsive web design & development </li>
+								<li>  - Experience in the use of versioning systems such as GIT/SVN</li>
+								<li>  - Experience of WordPress CMS integration and customisation </li>
+								<li>  - Experience of CSS pre-processor such as SASS/LESS </li>
+								<li>  - Browser testing for Mac/PC, iOS and Android</li>
+								<li>  - Experience with bootstraps such as Foundation and WordPress versions</li>
+								<li>  - Experience in both Grunt and Gulp </li>
+							</ul>
+
+
 				</li>
 				<li class="m-all t-1of2 d-1of2">
 					<img class="wow  animated fadeInRight" src="<?php echo bloginfo('url'); ?>/wp-content/themes/iamronan_portfolio/library/images/studio.png">
 
 
-					<div class="hire-me wow  animated fadeInUp"><button class="blue-btn"> CV </button> </div>
+					<div class="hire-me wow  animated fadeInUp"><button class="iamronan-btn cv-button"> CV </button> </div>
+
+
 					
 				</li>
 				
 			</ul>
+
+
+
+						
 
 
 

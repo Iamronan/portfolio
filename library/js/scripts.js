@@ -18,6 +18,14 @@
  * returns object with viewport dimensions to match css in width and height properties
  * ( source: http://andylangton.co.uk/blog/development/get-viewport-size-width-and-height-javascript )
  */
+
+(function($) {
+      $(window).load(function() {
+    $(".loader").fadeOut("slow");
+})(jQuery);
+
+   
+
 function updateViewportDimensions() {
     var w = window,
         d = document,
@@ -120,6 +128,11 @@ jQuery(document).ready(function($) {
 
     $(".flexnav").flexNav();
 
+        $(".flexnav").flexNav();
+$('.scroll-down a ').smoothScroll();
+});
+
+
     /*
      * Let's fire off the gravatar function
      * You can remove this if you don't need it
@@ -127,3 +140,4 @@ jQuery(document).ready(function($) {
     loadGravatars();
 
 }); /* end of as page load scripts */
+

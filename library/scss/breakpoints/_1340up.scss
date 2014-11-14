@@ -1,0 +1,197 @@
+/******************************************************************
+Site Name: 
+Author: 
+
+Stylesheet: Super Large Monitor Stylesheet
+
+You can add some advanced styles here if you like. This kicks in
+on larger screens.
+
+******************************************************************/
+
+.page-template-templatesabout-page-php .header {
+
+background: url(../images/me.jpg) no-repeat center center ; 
+
+}
+
+
+.icon-iamronan {
+
+width:450px;
+height:450px;
+
+}
+
+
+.home-logo {
+
+width:450px;
+height:450px;
+position:absolute;
+top:50%;
+left: 50%;
+margin-top: -225px;
+margin-left: -225px;
+
+}
+
+
+.header   {
+
+background: url(../images/traffic.jpg) no-repeat center center ; 
+
+}
+
+.page-template-templatesservices-page-php .header  {
+
+background: url(../images/services_bg.jpg) no-repeat center center ; 
+
+}
+
+.single .header, .blog .header {
+
+background: url(../images/journal_bg.jpg) no-repeat center center ; 
+
+}
+
+
+
+.page-template-templatesfront-page-php .header {
+	      
+	       width: 100%;
+           height: 100%;
+	      background: url(../images/portrait.jpg) no-repeat center center ; 
+	      position: relative;
+
+	     
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+
+}
+
+
+#content #main .grid .services-icon {
+
+width:80%;
+margin:auto;
+text-align:center;
+
+}
+
+
+.case-study-header {
+
+width:100%;
+margin:auto;
+
+}
+
+.tools 
+
+
+{
+
+margin-left:0;
+padding-top:1em;
+
+li {
+
+
+float:left;
+font-size:5em;
+padding-right:0.4em;
+
+}
+
+}
+
+
+.wrap {
+  width: 1200px;
+}
+
+
+.intro-text {
+
+position:absolute;
+left:1.5em;
+bottom:3em;
+width:33%;
+line-height: 1.5em;
+font-size: 1.3em;
+color: $light-text-color;
+font-weight:100;
+}
+
+
+.text-center {
+
+margin:auto;
+
+display:block;
+padding-top:3em;
+
+}
+
+
+.scroll-down {
+
+position:absolute;
+bottom:1em;
+left:49%;
+font-size:4em;
+color: #ffffff;
+
+
+}
+
+.me {
+
+width:200px;
+height:200px;
+margin:auto;
+padding-top:3em;
+
+}
+
+.icons li {
+
+
+padding-right:6em;
+padding-left:6em;
+padding-bottom:2em;
+padding-top:3em;
+
+h2 {
+
+text-align:center;
+font-weight:200;
+
+}
+
+}
+
+
+.intro-page {
+
+/*width:400px;*/
+padding-top:2em;
+line-height: 1.7em;
+font-size: 1.5em;
+color: #d9d9d9;
+font-weight: 100;
+
+ span {
+
+color:$iamronanpink;
+
+ }
+
+
+}

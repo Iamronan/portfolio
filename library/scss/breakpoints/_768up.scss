@@ -12,6 +12,51 @@ come into play. Have fun!
 
 ******************************************************************/
 
+
+	.copyright {
+
+background: url(../images/made.png) no-repeat center center ; 
+width:175px;
+float:left;
+background-size:200px 125px;
+margin-top:1.3em;
+
+
+
+	}
+.my-services {
+
+padding-left:3em;
+
+}
+
+
+.icon-iamronan {
+
+width:350px;
+height:350px;
+
+}
+
+
+.case-study-header {
+
+width:60%;
+margin:auto;
+
+}
+
+
+.no-svg .icon-iamronan{
+	background-image: url('png/iamronan.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	width:350px;
+	height:350px
+}
+
+
+
 #container .header .web-header {
 
 
@@ -185,9 +230,9 @@ margin:0px;
 .scroll-down {
 
 position:absolute;
-bottom:0.1em;
+bottom:0.3em;
 left:48%;
-font-size:4em;
+font-size:3em;
 color: #ffffff;
 
 
@@ -224,9 +269,8 @@ color:$iamronanpink;
 .text-center {
 
 margin:auto;
-
 display:block;
-padding-top:3em;
+padding-top:2em;
 
 }
 
@@ -234,7 +278,7 @@ padding-top:3em;
 
 /*width:400px;*/
 margin:auto;
-padding-top:2em;
+padding-top:0em;
 width:60%;
 line-height: 1.5em;
 font-size: 1.4em;
@@ -252,10 +296,11 @@ color:$iamronanpink;
 .blog-icon {
 
 position: absolute;
-padding-top: 0.3em;
-margin-left: -1em;
-font-size: 4em;
+padding-top: 0.8em;
+margin-left: -0.5em;
+font-size: 2em;
 color:#c5c5c5;
+display:block;
 }
 
 .home-logo {
@@ -279,7 +324,7 @@ HEADER STYLES
 width:175px;
 height:175px;
 margin:auto;
-padding-top:1.5em;
+padding-top:0.9em;
 
 }
 
@@ -296,7 +341,6 @@ margin: auto;
 .header  .page-title {
   position: relative;
   padding-bottom: 2px;
- 
   text-decoration: none;
 }
 
@@ -313,9 +357,33 @@ top:70px;
 left:20px;
  }
 
+.single-post .page-title-section {
+
+width:380px;
+
+
+}
+
+
+
+.single-post .header .page-title:after {
+content: "";
+position: absolute;
+/* bottom: 2px; */
+/* height: 1px; */
+width: 420px;
+/* background: #fff; */
+/* border-bottom: solid #fff 10px; */
+top:70px;
+left:-33px;
+ }
+
+
+
+
 .page-template-templatesabout-page-php .header {
 
-background: url(../images/me.jpg) no-repeat center center ; 
+background: url(../images/me_medium.jpg) no-repeat center center ; 
 
 }
 
@@ -328,13 +396,13 @@ background: url(../images/traffic.jpg) no-repeat center center ;
 
 .page-template-templatesservices-page-php .header  {
 
-background: url(../images/services_bg.jpg) no-repeat center center ; 
+background: url(../images/services_bg_medium.jpg) no-repeat center center ; 
 
 }
 
 .single .header, .blog .header {
 
-background: url(../images/journal_bg.jpg) no-repeat center center ; 
+background: url(../images/journal_bg_medium.jpg) no-repeat center center ; 
 
 }
 
@@ -344,7 +412,7 @@ background: url(../images/journal_bg.jpg) no-repeat center center ;
 	      
 	       width: 100%;
            height: 100%;
-	      background: url(../images/portrait.jpg) no-repeat center center ; 
+	      background: url(../images/portrait_medium.jpg) no-repeat center center ; 
 	      position: relative;
 
 	     
@@ -364,6 +432,12 @@ float:left;
 display:block;
 
 	}
+
+
+	.no-svg  #logo  {
+float:left;
+display:block;
+}
 
 /*********************
 NAVIGATION STYLES
@@ -389,6 +463,7 @@ font-weight: 100;
 
 		a {
 			border-bottom: 0;
+			transition:none;
 
 			/*
 			you can use hover styles here even though this size
@@ -396,6 +471,7 @@ font-weight: 100;
 			*/
 			&:hover, &:focus {
 				color: $white;
+				margin-left: 0px;
 				/*text-decoration: underline;*/
 			}
 		}
@@ -423,9 +499,13 @@ font-weight: 100;
 					display: block;
 					width: 180px;
 					border-bottom: 1px solid #ccc;
-
+				
+                   
 					&:hover,
-					&:focus {}
+					&:focus {
+                    
+
+					}
 
 					&:link {}
 				}
