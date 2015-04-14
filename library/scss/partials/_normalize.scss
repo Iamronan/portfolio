@@ -88,6 +88,7 @@ body {
 
 a {
     background: transparent;
+  
 }
 
 /**
@@ -95,7 +96,7 @@ a {
  */
 
 a:focus {
-    outline: thin dotted;
+    outline:0;
 }
 
 /**

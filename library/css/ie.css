@@ -96,8 +96,8 @@ whatever you use in here.
 
 ******************************************************************/
 /******************************************************************
-Site Name:
-Author:
+Site Name: Iamronan
+Author: Ronan Vallelly
 
 Stylesheet: 481px and Up Stylesheet
 
@@ -176,9 +176,8 @@ do they need tweaking?
 */
 /* end .footer-links */
 /******************************************************************
-Site Name:
-Author:
-
+Site Name: Iamronan
+Author: Ronan Vallelly
 Stylesheet: Tablet & Small Desktop Stylesheet
 
 Here's where you can start getting into the good stuff.
@@ -512,7 +511,7 @@ NAVIGATION STYLES
   */
 }
 .nav li a:hover, .nav li a:focus {
-  color: white;
+  color: #fff;
   margin-left: 0px;
   /*text-decoration: underline;*/
 }
@@ -611,8 +610,8 @@ mobile. Make sure to double check these!
 
 /* end .footer-links */
 /******************************************************************
-Site Name:
-Author:
+Site Name: Iamronan
+Author: Ronan Vallelly
 
 Stylesheet: Desktop Stylsheet
 
@@ -775,3 +774,5 @@ header.php file to see what they are:
 .lt-ie8 .class { ... }
 
 */
+
+/*# sourceMappingURL=ie.css.map */
